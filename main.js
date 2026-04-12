@@ -32,7 +32,9 @@
     site: {},
     activeCategory: "all",
     searchQuery: "",
-    /** Slugs de catégories présents dans recipes.json (après refreshDerivedCategories_) */
+    /** Slugs issus de site.recipeCategoryTaxonomy (TheMealDB), si présent */
+    recipeCategoryTaxonomyKeys: null,
+    /** Slugs de catégories pour nav / filtres / spotlight (après refreshDerivedCategories_) */
     categoryKeys: [],
     /** 'all' + chaque slug (pour ?cat= et nav) */
     validCategorySet: null,
@@ -246,6 +248,16 @@
         }
         state.data = Array.isArray(data) ? { site: site, recipes: recipes } : data;
         state.site = site;
+        state.recipeCategoryTaxonomyKeys = null;
+        if (
+          site &&
+          Array.isArray(site.recipeCategoryTaxonomy) &&
+          site.recipeCategoryTaxonomy.length
+        ) {
+          state.recipeCategoryTaxonomyKeys = site.recipeCategoryTaxonomy.map(function (t) {
+            return slugifyCategoryKey(t);
+          });
+        }
         state.recipes = recipes.map(function (r) {
           var rawCat = r.category || "";
           var key = normalizeRecipeCategoryKey(rawCat);
@@ -767,19 +779,37 @@
   }
 
   function refreshDerivedCategories_() {
+    var fromRecipes = [];
     var seen = {};
-    var keys = [];
     state.recipes.forEach(function (r) {
       var k = r.category;
       if (!k || seen[k]) return;
       seen[k] = true;
-      keys.push(k);
+      fromRecipes.push(k);
     });
-    keys.sort(function (a, b) {
-      return categoryLabel(a).localeCompare(categoryLabel(b));
-    });
-    state.categoryKeys = keys;
-    state.validCategorySet = new Set(keys);
+
+    var tax = state.recipeCategoryTaxonomyKeys;
+    if (tax && tax.length) {
+      var ordered = [];
+      var used = {};
+      tax.forEach(function (k) {
+        if (!k || used[k]) return;
+        used[k] = true;
+        ordered.push(k);
+      });
+      fromRecipes.forEach(function (k) {
+        if (!used[k]) {
+          used[k] = true;
+          ordered.push(k);
+        }
+      });
+      state.categoryKeys = ordered;
+    } else {
+      state.categoryKeys = fromRecipes.slice().sort(function (a, b) {
+        return categoryLabel(a).localeCompare(categoryLabel(b));
+      });
+    }
+    state.validCategorySet = new Set(state.categoryKeys);
     state.validCategorySet.add("all");
   }
 
@@ -810,6 +840,7 @@
     desserts: "Sweet endings for any occasion",
     breakfast: "Morning favorites",
     miscellaneous: "More ideas to explore",
+    starter: "Small plates to open the meal",
   };
 
   function spotlightBlurb(key, label, count) {
@@ -828,7 +859,7 @@
     if (!grid) return;
     if (!state.categoryKeys.length) {
       grid.innerHTML =
-        '<p class="empty-state" role="status">Publish recipes to see categories here.</p>';
+        '<p class="empty-state" role="status">No categories yet. Publish recipes or sync TheMealDB taxonomy in Apps Script.</p>';
       return;
     }
     grid.innerHTML = state.categoryKeys

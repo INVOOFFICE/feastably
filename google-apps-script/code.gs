@@ -93,21 +93,29 @@ const CONFIG = {
   /** Origine canonique (sitemap + Indexing API) ; doit matcher site.canonicalOrigin dans recipes.json */
   SITE_ORIGIN: 'https://akkous.com',
   API_BASE: 'https://www.themealdb.com/api/json/v1/1/',
-  /** Category names must match TheMealDB (see their site). Rotated daily. */
+  /**
+   * Noms de catégories TheMealDB (filter.php?c=…) — liste de secours si l’API
+   * categories.php est indisponible. Ordre aligné sur l’API v1.
+   * @see fetchTheMealDbCategoryNamesFromApi_ — sync automatique + cache properties.
+   */
   CATEGORIES: [
-    'Chicken',
     'Beef',
-    'Seafood',
-    'Pasta',
+    'Chicken',
     'Dessert',
-    'Vegetarian',
     'Lamb',
+    'Miscellaneous',
+    'Pasta',
     'Pork',
-    'Breakfast',
-    'Vegan',
+    'Seafood',
     'Side',
+    'Starter',
+    'Vegan',
+    'Vegetarian',
+    'Breakfast',
     'Goat',
   ],
+  /** Cache script properties THE_MEALDB_CATEGORIES_* (heures). */
+  CATEGORIES_API_CACHE_HOURS: 168,
   /** Milliseconds between API calls */
   API_SLEEP_MS: 300,
   /** Days after publish to archive then remove PUBLISHED rows from Recipes */
@@ -1157,10 +1165,11 @@ function fetchAndScheduleRecipes() {
     const picked = [];
     const pickedIds = new Set(existingIds);
 
+    const rotationCats = getCategoryRotationList_();
     const startCatIndex = dayRotationIndex_();
+    const rotLen = rotationCats.length || CONFIG.CATEGORIES.length;
     for (let i = 0; i < target && picked.length < target; i++) {
-      const catName =
-        CONFIG.CATEGORIES[(startCatIndex + i) % CONFIG.CATEGORIES.length];
+      const catName = rotationCats[(startCatIndex + i) % rotLen];
       const id = pickRandomMealIdFromCategory_(catName, pickedIds);
       Utilities.sleep(CONFIG.API_SLEEP_MS);
       if (!id) continue;
@@ -2008,6 +2017,92 @@ function testFetch() {
 // TheMealDB
 // ---------------------------------------------------------------------------
 
+/** Clés properties pour le cache de categories.php */
+const THE_MEALDB_CAT_CACHE_JSON_KEY_ = 'THE_MEALDB_CATEGORIES_JSON';
+const THE_MEALDB_CAT_CACHE_MS_KEY_ = 'THE_MEALDB_CATEGORIES_FETCHED_MS';
+
+/**
+ * Lit categories.php (TheMealDB) et renvoie les strCategory dans l’ordre API.
+ * @returns {string[]|null}
+ */
+function fetchTheMealDbCategoryNamesFromApi_() {
+  const url = `${CONFIG.API_BASE}categories.php`;
+  let text = '';
+  try {
+    const res = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
+    text = res.getContentText();
+  } catch (e) {
+    logAutomation_(
+      CONFIG.LOG_LEVEL_WARN,
+      'fetchTheMealDbCategoryNamesFromApi_',
+      'fetch: ' + String(e)
+    );
+    return null;
+  }
+  try {
+    const data = JSON.parse(text);
+    const cats = data.categories;
+    if (!cats || !cats.length) return null;
+    return cats
+      .map((c) => String(c.strCategory || '').trim())
+      .filter(Boolean);
+  } catch (e) {
+    logAutomation_(
+      CONFIG.LOG_LEVEL_WARN,
+      'fetchTheMealDbCategoryNamesFromApi_',
+      'parse: ' + String(e)
+    );
+    return null;
+  }
+}
+
+/**
+ * Liste utilisée pour la rotation fetch + export JSON (taxonomie site).
+ * Met en cache les résultats de categories.php (TTL CONFIG.CATEGORIES_API_CACHE_HOURS).
+ * @returns {string[]}
+ */
+function getCategoryRotationList_() {
+  const props = PropertiesService.getScriptProperties();
+  const ttlMs =
+    Math.max(1, parseInt(String(CONFIG.CATEGORIES_API_CACHE_HOURS), 10) || 168) *
+    60 *
+    60 *
+    1000;
+  const now = Date.now();
+  const raw = props.getProperty(THE_MEALDB_CAT_CACHE_JSON_KEY_);
+  const ts = parseInt(props.getProperty(THE_MEALDB_CAT_CACHE_MS_KEY_) || '0', 10);
+  if (raw && ts && now - ts < ttlMs) {
+    try {
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr) && arr.length) return arr;
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  const fromApi = fetchTheMealDbCategoryNamesFromApi_();
+  if (fromApi && fromApi.length) {
+    props.setProperty(THE_MEALDB_CAT_CACHE_JSON_KEY_, JSON.stringify(fromApi));
+    props.setProperty(THE_MEALDB_CAT_CACHE_MS_KEY_, String(now));
+    logAutomation_(
+      CONFIG.LOG_LEVEL_INFO,
+      'getCategoryRotationList_',
+      'Catégories TheMealDB synchronisées (' + fromApi.length + ') via categories.php'
+    );
+    return fromApi;
+  }
+
+  if (raw) {
+    try {
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr) && arr.length) return arr;
+    } catch (e) {
+      /* ignore */
+    }
+  }
+  return CONFIG.CATEGORIES.slice();
+}
+
 function pickRandomMealIdFromCategory_(categoryName, excludeIds) {
   const enc = encodeURIComponent(categoryName);
   const url = `${CONFIG.API_BASE}filter.php?c=${enc}`;
@@ -2164,13 +2259,15 @@ function readExistingIds_(sheet) {
 }
 
 function dayRotationIndex_() {
+  const cats = getCategoryRotationList_();
+  const n = cats.length || CONFIG.CATEGORIES.length;
   const tz = getTimezone_();
   const ymd = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
   let hash = 0;
   for (let i = 0; i < ymd.length; i++) {
     hash = (hash * 31 + ymd.charCodeAt(i)) >>> 0;
   }
-  return hash % CONFIG.CATEGORIES.length;
+  return hash % n;
 }
 
 /**
@@ -2480,6 +2577,12 @@ function defaultExportSite_() {
   const canon = String(CONFIG.SITE_ORIGIN || 'https://akkous.com')
     .trim()
     .replace(/\/+$/, '');
+  let recipeCategoryTaxonomy = [];
+  try {
+    recipeCategoryTaxonomy = getCategoryRotationList_();
+  } catch (e) {
+    recipeCategoryTaxonomy = CONFIG.CATEGORIES.slice();
+  }
   return {
     name: 'Akkous',
     canonicalOrigin: canon,
@@ -2488,6 +2591,8 @@ function defaultExportSite_() {
     newsletterHeading: 'Get recipes in your inbox',
     newsletterSubtext: 'Weekly seasonal ideas—no spam, unsubscribe anytime.',
     newsletterWebAppUrl,
+    /** Taxonomie officielle TheMealDB (accueil : nav / filtres / spotlight). */
+    recipeCategoryTaxonomy,
   };
 }
 
