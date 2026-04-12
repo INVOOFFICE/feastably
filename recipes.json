@@ -105,12 +105,12 @@
         "plat de boeuf",
         "mulukhiyah",
         "cuisine moyen-orientale",
-        "riz court grain",
-        "pain pita",
         "épicé",
         "rapide",
+        "boeuf",
         "Beef",
-        "Egyptian"
+        "Egyptian",
+        "Gyptien"
       ],
       "datePublished": "2026-04-12",
       "publishDate": "2026-04-12T00:00:00",
@@ -130,14 +130,13 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
-        "syrian-spaghetti-53093",
         "thai-fried-rice-with-prawns-peas-53198"
       ]
     },
     {
       "mealId": "53198",
       "id": "thai-fried-rice-with-prawns-peas-53198",
-      "title": "Riz frit thaï aux crevettes",
+      "title": "Riz frit thaï crevettes",
       "category": "Seafood",
       "origin": "Thai",
       "image": "https://www.themealdb.com/images/media/meals/hblwvg1763478203.jpg",
@@ -156,18 +155,15 @@
         "4 large Egg",
         "To serve Hotsauce"
       ],
-      "instructions": "1. Chauffez 1 cuillère à soupe d'huile dans un wok, ajoutez l'oignon, l'ail et le piment, et faites cuire pendant 2-3 minutes jusqu'à ce qu'ils soient dorés. Ajoutez les crevettes et faites cuire pendant 1 minute. Versez le riz et les pois, et continuez à remuer jusqu'à ce que le mélange soit très chaud. Ajoutez la sauce soja et la sauce poisson, puis mélangez avec la coriandre hachée. Gardez au chaud pendant que vous faites frire les œufs. 2. Chauffez l'huile restante dans une poêle et faites frire les œufs avec un peu d'assaisonnement. Divisez le mélange de riz frit entre 4 bols et garnissez chaque bol d'un œuf frit. Servez parsemé de coriandre, avec de la sauce piquante si vous le souhaitez.",
+      "instructions": "1. Chauffez 1 cuillère à soupe d'huile dans un wok, ajoutez l'oignon, l'ail et le piment, et faites cuire pendant 2-3 minutes. 2. Ajoutez les crevettes et faites cuire pendant 1 minute. 3. Versez le riz et les pois, et continuez à remuer jusqu'à ce que le mélange soit très chaud. 4. Ajoutez la sauce soja et la sauce poisson, puis mélangez avec la coriandre hachée. 5. Faites frire les œufs dans l'huile restante.",
       "steps": [
-        "Chauffez 1 cuillère à soupe d'huile dans un wok, ajoutez l'oignon, l'ail et le piment, et faites cuire pendant 2-3 minutes jusqu'à ce qu'ils soient dorés.",
-        "Ajoutez les crevettes et faites cuire pendant 1 minute.",
-        "Versez le riz et les pois, et continuez à remuer jusqu'à ce que le mélange soit très chaud.",
-        "Ajoutez la sauce soja et la sauce poisson, puis mélangez avec la coriandre hachée.",
-        "Gardez au chaud pendant que vous faites frire les œufs. 2.",
-        "Chauffez l'huile restante dans une poêle et faites frire les œufs avec un peu d'assaisonnement.",
-        "Divisez le mélange de riz frit entre 4 bols et garnissez chaque bol d'un œuf frit.",
-        "Servez parsemé de coriandre, avec de la sauce piquante si vous le souhaitez."
+        "Chauffez 1 cuillère à soupe d'huile dans un wok, ajoutez l'oignon, l'ail et le piment, et faites cuire pendant 2-3 minutes.",
+        "2. Ajoutez les crevettes et faites cuire pendant 1 minute.",
+        "3. Versez le riz et les pois, et continuez à remuer jusqu'à ce que le mélange soit très chaud.",
+        "4. Ajoutez la sauce soja et la sauce poisson, puis mélangez avec la coriandre hachée.",
+        "5. Faites frire les œufs dans l'huile restante."
       ],
-      "description": "Riz frit thaï aux crevettes (Thai) — easy seafood recipe with 12 ingredients and 8 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "description": "Riz frit thaï crevettes (Thai) — easy seafood recipe with 12 ingredients and 5 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
       "tags": [
         "riz frit",
         "crevettes",
@@ -176,7 +172,7 @@
         "rapide",
         "œufs",
         "sauce soja",
-        "pois",
+        "cuisine asiatique",
         "Seafood",
         "Thai"
       ],
@@ -194,12 +190,12 @@
       "prepTime": "10 min",
       "totalTime": "4 min",
       "servings": 4,
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
-        "syrian-spaghetti-53093",
-        "mulukhiyah-53029"
+        "mulukhiyah-53029",
+        "syrian-spaghetti-53093"
       ]
     },
     {
@@ -219,11 +215,11 @@
         "Dash Salt",
         "Dash Pepper"
       ],
-      "instructions": "1. Préchauffez le four à 175 degrés C. 2. Faites cuire les spaghettis dans de l'eau légèrement salée pendant 8 à 10 minutes. 3. Mélangez la sauce tomate, le concentré de tomate, la cannelle, l'huile, le sel et le poivre avec les spaghettis cuits. 4. Mettez le mélange dans un plat à four préchauffé et faites cuire pendant 1 heure.",
+      "instructions": "1. Préchauffez le four à 175 degrés C. 2. Faites cuire les spaghettis dans de l'eau légèrement salée pendant 8 à 10 minutes. 3. Mélangez la sauce tomate, le concentré de tomate, la cannelle, l'huile, le sel et le poivre. 4. Mettez le mélange dans un plat à four préchauffé et faites cuire pendant 1 heure.",
       "steps": [
         "Préchauffez le four à 175 degrés C.",
         "2. Faites cuire les spaghettis dans de l'eau légèrement salée pendant 8 à 10 minutes.",
-        "3. Mélangez la sauce tomate, le concentré de tomate, la cannelle, l'huile, le sel et le poivre avec les spaghettis cuits.",
+        "3. Mélangez la sauce tomate, le concentré de tomate, la cannelle, l'huile, le sel et le poivre.",
         "4. Mettez le mélange dans un plat à four préchauffé et faites cuire pendant 1 heure."
       ],
       "description": "Spaghetti Syrien (Syrian) — easy pasta recipe with 7 ingredients and 4 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
@@ -235,9 +231,9 @@
         "plat principal",
         "four",
         "spaghettis",
-        "rapide",
         "Pasta",
-        "Syrian"
+        "Syrian",
+        "Spaghetti"
       ],
       "datePublished": "2026-04-12",
       "publishDate": "2026-04-12T00:00:00",
@@ -257,8 +253,7 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
-        "thai-fried-rice-with-prawns-peas-53198",
-        "mulukhiyah-53029"
+        "thai-fried-rice-with-prawns-peas-53198"
       ]
     },
     {
@@ -278,9 +273,9 @@
         "1 can Cannellini Beans",
         "Garnish Dill"
       ],
-      "instructions": "1. Émincez les betteraves et faites-les cuire dans 6 tasses d'eau avec un cube de bouillon de poulet pendant 15 minutes. 2. Ajoutez les pommes de terre et l'huile d'olive, puis portez à ébullition jusqu'à ce que les pommes de terre soient tendres. 3. Ajoutez les haricots cannellini et faites cuire pendant 5 minutes supplémentaires.",
+      "instructions": "1. Faites cuire les betteraves émincées dans 6 tasses d'eau avec un cube de bouillon de poulet pendant 15 minutes. 2. Ajoutez les pommes de terre et l'huile d'olive, puis portez à ébullition jusqu'à ce que les pommes de terre soient tendres. 3. Ajoutez les haricots cannellini et faites cuire pendant 5 minutes supplémentaires.",
       "steps": [
-        "Émincez les betteraves et faites-les cuire dans 6 tasses d'eau avec un cube de bouillon de poulet pendant 15 minutes.",
+        "Faites cuire les betteraves émincées dans 6 tasses d'eau avec un cube de bouillon de poulet pendant 15 minutes.",
         "2. Ajoutez les pommes de terre et l'huile d'olive, puis portez à ébullition jusqu'à ce que les pommes de terre soient tendres.",
         "3. Ajoutez les haricots cannellini et faites cuire pendant 5 minutes supplémentaires."
       ],
