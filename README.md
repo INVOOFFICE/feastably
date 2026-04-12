@@ -172,7 +172,7 @@ Les liens relatifs fonctionnent pour un site projet (`username.github.io/repo/`)
 | Croix rouge sur un fichier mais verte sur la racine | GitHub affiche le statut des **checks pour le dernier commit ayant modifié ce fichier** ; ce n’est pas forcément le même SHA que la tête de `main`. |
 
 ---
-
+test update github
 ## Licence
 
 Utilisation et modification libres pour ton propre blog.
