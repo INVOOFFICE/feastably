@@ -1,0 +1,33 @@
+{
+  "name": "Akkous",
+  "short_name": "Akkous",
+  "description": "English recipe blog with practical cooking guides.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAFAF8",
+  "theme_color": "#E8572A",
+  "categories": ["food", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Latest recipes",
+      "short_name": "Latest",
+      "url": "./#trending"
+    },
+    {
+      "name": "Browse categories",
+      "short_name": "Categories",
+      "url": "./#category-filters"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}

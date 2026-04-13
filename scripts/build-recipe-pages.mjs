@@ -285,6 +285,7 @@ function applyPathPrefix(html, prefix) {
   const p = prefix;
   return html
     .replace(/href="recipes\.json"/g, `href="${p}recipes.json"`)
+    .replace(/href="manifest\.webmanifest"/g, `href="${p}manifest.webmanifest"`)
     .replace(/href="assets\//g, `href="${p}assets/`)
     .replace(/href="style\.css"/g, `href="${p}style.css"`)
     .replace(/src="main\.js"/g, `src="${p}main.js"`)

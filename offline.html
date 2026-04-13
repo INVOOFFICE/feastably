@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#E8572A" />
+    <title>Offline — Akkous</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: #fafaf8;
+        color: #1a1a1a;
+      }
+      main {
+        width: min(520px, calc(100% - 2rem));
+        border: 1px solid rgba(26, 26, 26, 0.1);
+        border-radius: 14px;
+        padding: 1.25rem;
+        background: #fff;
+        text-align: center;
+      }
+      h1 {
+        margin: 0 0 0.65rem;
+        font-size: 1.5rem;
+      }
+      p {
+        margin: 0 0 1rem;
+        line-height: 1.55;
+      }
+      a {
+        display: inline-block;
+        border-radius: 999px;
+        padding: 0.55rem 1rem;
+        text-decoration: none;
+        background: #e8572a;
+        color: #fff;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>You are offline</h1>
+      <p>
+        Akkous could not load fresh content right now. Reconnect to the internet
+        and retry, or open the homepage.
+      </p>
+      <a href="./index.html">Go to homepage</a>
+    </main>
+  </body>
+</html>

@@ -399,6 +399,79 @@
     });
   }
 
+  function initPwaInstall() {
+    var deferredPrompt = null;
+    var banner = null;
+    var installBtn = null;
+    var closeBtn = null;
+    var DISMISS_KEY = "pwaInstallDismissedAt";
+    var DISMISS_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
+    function canShowBanner() {
+      if (window.matchMedia && !window.matchMedia("(display-mode: browser)").matches) {
+        return false;
+      }
+      if (window.navigator.standalone) return false;
+      var dismissedAt = Number(localStorage.getItem(DISMISS_KEY) || 0);
+      if (!dismissedAt) return true;
+      return Date.now() - dismissedAt > DISMISS_TTL_MS;
+    }
+
+    function ensureBanner() {
+      if (banner) return;
+      banner = document.createElement("aside");
+      banner.className = "pwa-install-banner";
+      banner.setAttribute("role", "dialog");
+      banner.setAttribute("aria-live", "polite");
+      banner.setAttribute("aria-label", "Install app");
+      banner.hidden = true;
+      banner.innerHTML =
+        '<p class="pwa-install-banner__text">Install Akkous for faster access and offline support.</p>' +
+        '<div class="pwa-install-banner__actions">' +
+        '<button type="button" class="pwa-install-banner__btn pwa-install-banner__btn--primary" id="pwa-install-action">Install</button>' +
+        '<button type="button" class="pwa-install-banner__btn" id="pwa-install-close">Later</button>' +
+        "</div>";
+      document.body.appendChild(banner);
+      installBtn = banner.querySelector("#pwa-install-action");
+      closeBtn = banner.querySelector("#pwa-install-close");
+      closeBtn.addEventListener("click", function () {
+        banner.hidden = true;
+        localStorage.setItem(DISMISS_KEY, String(Date.now()));
+      });
+      installBtn.addEventListener("click", function () {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.finally(function () {
+          deferredPrompt = null;
+          banner.hidden = true;
+        });
+      });
+    }
+
+    window.addEventListener("beforeinstallprompt", function (e) {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (!canShowBanner()) return;
+      ensureBanner();
+      banner.hidden = false;
+    });
+
+    window.addEventListener("appinstalled", function () {
+      if (banner) banner.hidden = true;
+      localStorage.removeItem(DISMISS_KEY);
+    });
+  }
+
+  function registerServiceWorker() {
+    if (!("serviceWorker" in navigator)) return;
+    var p = siteRootRelativePrefix();
+    var swUrl = new URL((p || "./") + "sw.js", window.location.href).href;
+    var scopeUrl = new URL(p || "./", window.location.href);
+    navigator.serviceWorker.register(swUrl, { scope: scopeUrl.pathname }).catch(function (err) {
+      console.warn("Service worker registration failed:", err);
+    });
+  }
+
   function applyBranding() {
     var name = state.site.name || "Akkous";
     $$("[data-site-name]").forEach(function (el) {
@@ -1818,6 +1891,8 @@
     initTheme();
     initMobileNav();
     initBackToTop();
+    initPwaInstall();
+    registerServiceWorker();
 
     var themeBtn = $("#theme-toggle");
     if (themeBtn) themeBtn.addEventListener("click", toggleTheme);
