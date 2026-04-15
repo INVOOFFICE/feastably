@@ -147,9 +147,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "padron-peppers-53150",
         "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092",
-        "red-onion-pickle-53115",
-        "vegan-banh-mi-53250"
+        "red-onion-pickle-53115"
       ]
     },
     {
@@ -207,9 +207,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "falafel-53266",
         "ratatouille-52908",
-        "chickpea-fajitas-52870",
-        "falafel-pita-sandwich-with-tahini-sauce-53091"
+        "chickpea-fajitas-52870"
       ]
     },
     {
@@ -271,7 +271,7 @@
       "relatedRecipeIds": [
         "bread-omelette-53076",
         "cream-cheese-tart-52779",
-        "jamaican-cornmeal-porridge-53363"
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -330,8 +330,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "aubergine-hummus-grills-53278",
-        "falafel-pita-sandwich-with-tahini-sauce-53091",
-        "ratatouille-52908"
+        "falafel-53266",
+        "falafel-pita-sandwich-with-tahini-sauce-53091"
       ]
     },
     {
@@ -454,9 +454,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "padron-peppers-53150",
         "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092",
-        "red-onion-pickle-53115",
-        "roast-fennel-and-aubergine-paella-52942"
+        "red-onion-pickle-53115"
       ]
     },
     {
@@ -520,7 +520,7 @@
       "relatedRecipeIds": [
         "aubergine-hummus-grills-53278",
         "chickpea-fajitas-52870",
-        "falafel-pita-sandwich-with-tahini-sauce-53091"
+        "falafel-53266"
       ]
     },
     {
@@ -573,8 +573,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "smoked-haddock-kedgeree-52964",
-        "jamaican-cornmeal-porridge-53363",
-        "fruit-and-cream-cheese-breakfast-pastries-52957"
+        "dutch-poffertjes-mini-pancakes-53379",
+        "jamaican-cornmeal-porridge-53363"
       ]
     },
     {
@@ -764,7 +764,7 @@
       "relatedRecipeIds": [
         "red-onion-pickle-53115",
         "roast-fennel-and-aubergine-paella-52942",
-        "vegan-banh-mi-53250"
+        "padron-peppers-53150"
       ]
     },
     {
@@ -829,9 +829,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "falafel-53266",
         "aubergine-hummus-grills-53278",
-        "chickpea-fajitas-52870",
-        "ratatouille-52908"
+        "chickpea-fajitas-52870"
       ]
     },
     {
@@ -897,8 +897,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "fruit-and-cream-cheese-breakfast-pastries-52957",
-        "jamaican-cornmeal-porridge-53363"
+        "dutch-poffertjes-mini-pancakes-53379",
+        "fruit-and-cream-cheese-breakfast-pastries-52957"
       ]
     },
     {
@@ -1073,8 +1073,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092",
-        "roast-fennel-and-aubergine-paella-52942",
-        "vegan-banh-mi-53250"
+        "padron-peppers-53150",
+        "roast-fennel-and-aubergine-paella-52942"
       ]
     },
     {
@@ -1139,7 +1139,7 @@
       "relatedRecipeIds": [
         "aubergine-hummus-grills-53278",
         "chickpea-fajitas-52870",
-        "falafel-pita-sandwich-with-tahini-sauce-53091"
+        "falafel-53266"
       ]
     },
     {
@@ -1199,8 +1199,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "fruit-and-cream-cheese-breakfast-pastries-52957",
-        "smoked-haddock-kedgeree-52964"
+        "dutch-poffertjes-mini-pancakes-53379",
+        "fruit-and-cream-cheese-breakfast-pastries-52957"
       ]
     },
     {
@@ -1264,6 +1264,302 @@
       "relatedRecipeIds": [
         "cream-cheese-tart-52779",
         "smoked-haddock-kedgeree-52964"
+      ]
+    },
+    {
+      "mealId": "53150",
+      "id": "padron-peppers-53150",
+      "title": "Spanish Padron Peppers",
+      "category": "Vegan",
+      "origin": "Spanish",
+      "image": "https://www.themealdb.com/images/media/meals/0ljvc51763248075.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/0ljvc51763248075.jpg",
+      "ingredients": [
+        "1 tablespoon Olive Oil",
+        "500g Padron peppers"
+      ],
+      "instructions": "1. Heat olive oil in a large frying pan over high heat or air-fryer to 205C for 3 mins. Fry peppers for 5 mins, stirring frequently, until blistered and wilted. 2. Transfer peppers to a serving plate, season with sea salt, and serve with dips or as part of a tapas spread.",
+      "steps": [
+        "Heat olive oil in a large frying pan over high heat or air-fryer to 205C for 3 mins.",
+        "Fry peppers for 5 mins, stirring frequently, until blistered and wilted. 2.",
+        "Transfer peppers to a serving plate, season with sea salt, and serve with dips or as part of a tapas spread."
+      ],
+      "description": "Spanish Padron Peppers (Spanish) — easy vegan recipe with 2 ingredients and 3 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Vegan",
+        "Spanish",
+        "Peppers",
+        "Fried",
+        "Tapas",
+        "Quick",
+        "Vegetarian",
+        "Easy",
+        "Padron"
+      ],
+      "datePublished": "2026-04-14",
+      "publishDate": "2026-04-14T09:00:00",
+      "addedDate": "2026-04-13T04:47:08",
+      "status": "PUBLISHED",
+      "slug": "padron-peppers-53150",
+      "youtube": "https://www.youtube.com/watch?v=wD6NE3cMKBY",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "8 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "roast-fennel-and-aubergine-paella-52942",
+        "vegan-banh-mi-53250",
+        "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092"
+      ]
+    },
+    {
+      "mealId": "53266",
+      "id": "falafel-53266",
+      "title": "Turkish Falafel",
+      "category": "Vegetarian",
+      "origin": "Turkish",
+      "image": "https://www.themealdb.com/images/media/meals/u5e9qq1763795441.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/u5e9qq1763795441.jpg",
+      "ingredients": [
+        "2 tablespoons Sunflower Oil",
+        "1 chopped Onion",
+        "1 clove peeled crushed Garlic",
+        "400g Chickpeas",
+        "1 tsp Ground Cumin",
+        "1 tsp Ground Coriander",
+        "Handful Parsley",
+        "1 beaten Egg"
+      ],
+      "instructions": "1. Heat 1 tbsp oil in a pan, fry onion and garlic for 5 mins. 2. Mash chickpeas, spices, and herbs, then mix in egg. 3. Shape into patties, fry for 3 mins each side.",
+      "steps": [
+        "Heat 1 tbsp oil in a pan, fry onion and garlic for 5 mins.",
+        "2. Mash chickpeas, spices, and herbs, then mix in egg.",
+        "3. Shape into patties, fry for 3 mins each side."
+      ],
+      "description": "Turkish Falafel (Turkish) — easy vegetarian recipe with 8 ingredients and 3 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "vegetarian",
+        "chickpeas",
+        "middle eastern",
+        "fried",
+        "patty",
+        "turkish",
+        "street food",
+        "lunch",
+        "Falafel"
+      ],
+      "datePublished": "2026-04-14",
+      "publishDate": "2026-04-14T09:00:00",
+      "addedDate": "2026-04-13T04:47:08",
+      "status": "PUBLISHED",
+      "slug": "falafel-53266",
+      "youtube": "https://www.youtube.com/watch?v=NZcWedPKysk",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "8 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "falafel-pita-sandwich-with-tahini-sauce-53091",
+        "aubergine-hummus-grills-53278",
+        "chickpea-fajitas-52870"
+      ]
+    },
+    {
+      "mealId": "53379",
+      "id": "dutch-poffertjes-mini-pancakes-53379",
+      "title": "Dutch Mini Pancakes",
+      "category": "Breakfast",
+      "origin": "Dutch",
+      "image": "https://www.themealdb.com/images/media/meals/oaqz9f1766593912.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/oaqz9f1766593912.jpg",
+      "ingredients": [
+        "125g Flour",
+        "125g Buckwheat Flour",
+        "2 Eggs",
+        "1 knob Butter",
+        "300ml Milk",
+        "10g Yeast",
+        "1tsp vanilla sugar",
+        "To serve Butter",
+        "To serve Icing Sugar"
+      ],
+      "instructions": "1. Mix yeast with lukewarm milk and stir until dissolved. 2. Combine buckwheat and flour, add yeast mixture, and stir in milk for a smooth batter. 3. Add eggs, salt, and vanilla sugar, then let rise for 45 minutes. 4. Heat the poffertjespan, add butter to each hole, and fill halfway with batter. 5. Bake one side until the top dries out, then flip and bake the other side until golden brown.",
+      "steps": [
+        "Mix yeast with lukewarm milk and stir until dissolved.",
+        "2. Combine buckwheat and flour, add yeast mixture, and stir in milk for a smooth batter.",
+        "3. Add eggs, salt, and vanilla sugar, then let rise for 45 minutes.",
+        "4. Heat the poffertjespan, add butter to each hole, and fill halfway with batter.",
+        "5. Bake one side until the top dries out, then flip and bake the other side until golden brown."
+      ],
+      "description": "Dutch Mini Pancakes (Dutch) — easy breakfast recipe with 9 ingredients and 5 steps. Ready in 31 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "pancakes",
+        "breakfast",
+        "Dutch cuisine",
+        "buckwheat",
+        "yeast",
+        "butter",
+        "quick",
+        "sweet",
+        "Dutch",
+        "Mini"
+      ],
+      "datePublished": "2026-04-14",
+      "publishDate": "2026-04-14T09:00:00",
+      "addedDate": "2026-04-13T04:47:08",
+      "status": "PUBLISHED",
+      "slug": "dutch-poffertjes-mini-pancakes-53379",
+      "youtube": "https://www.youtube.com/watch?v=gK1b5gymAUY",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "31 min",
+      "prepTime": "14 min",
+      "totalTime": "45 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "bread-omelette-53076",
+        "fruit-and-cream-cheese-breakfast-pastries-52957",
+        "jamaican-cornmeal-porridge-53363"
+      ]
+    },
+    {
+      "mealId": "53096",
+      "id": "corned-beef-hash-53096",
+      "title": "British Corned Beef Hash",
+      "category": "Beef",
+      "origin": "British",
+      "image": "https://www.themealdb.com/images/media/meals/vz94r81760534692.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/vz94r81760534692.jpg",
+      "ingredients": [
+        "3  tablespoons Unsalted Butter",
+        "1 medium chopped Onion",
+        "3 Cups Corned Beef",
+        "3 chopped Potatoes",
+        "Dash Kosher Salt",
+        "Dash Black Pepper",
+        "Chopped Freshly Chopped Parsley"
+      ],
+      "instructions": "1. Sauté the onions in butter on medium heat until translucent. 2. Add potatoes and corned beef, spreading evenly and increasing heat to high. 3. Cook until browned, then flip sections with a spatula. 4. Continue cooking until nicely browned, adding butter if needed. 5. Remove from heat, stir in parsley, and season with salt and pepper.",
+      "steps": [
+        "Sauté the onions in butter on medium heat until translucent.",
+        "2. Add potatoes and corned beef, spreading evenly and increasing heat to high.",
+        "3. Cook until browned, then flip sections with a spatula.",
+        "4. Continue cooking until nicely browned, adding butter if needed.",
+        "5. Remove from heat, stir in parsley, and season with salt and pepper."
+      ],
+      "description": "British Corned Beef Hash (British) — easy beef recipe with 7 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "beef",
+        "hash",
+        "British",
+        "breakfast",
+        "corned beef",
+        "skillet",
+        "potatoes",
+        "parsley",
+        "Corned"
+      ],
+      "datePublished": "2026-04-14",
+      "publishDate": "2026-04-14T09:00:00",
+      "addedDate": "2026-04-13T04:47:08",
+      "status": "PUBLISHED",
+      "slug": "corned-beef-hash-53096",
+      "youtube": "https://www.youtube.com/watch?v=SPr_UnCrYPg",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "broccoli-stilton-soup-52842",
+        "creamy-tomato-soup-52841",
+        "bread-omelette-53076"
+      ]
+    },
+    {
+      "mealId": "53093",
+      "id": "syrian-spaghetti-53093",
+      "title": "Syrian Baked Spaghetti",
+      "category": "Pasta",
+      "origin": "Syrian",
+      "image": "https://www.themealdb.com/images/media/meals/5fu4ew1760524857.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/5fu4ew1760524857.jpg",
+      "ingredients": [
+        "16 ounces Spaghetti",
+        "8 ounces Tomato Sauce",
+        "6 oz Tomato Puree",
+        "1 teaspoon Cinnamon",
+        "1/4 cup Vegetable Oil",
+        "Dash Salt",
+        "Dash Pepper"
+      ],
+      "instructions": "1. Preheat oven to 350 degrees F (175 degrees C). 2. Bring a large pot of lightly salted water to a boil. 3. Add spaghetti and cook for 8 to 10 minutes or until al dente. 4. Drain and stir in tomato sauce, tomato puree, cinnamon, oil, salt, and pepper. 5. Transfer to a greased 9x13 inch baking dish. 6. Bake in preheated oven for 1 hour, or until top is crunchy.",
+      "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "2. Bring a large pot of lightly salted water to a boil.",
+        "3. Add spaghetti and cook for 8 to 10 minutes or until al dente.",
+        "4. Drain and stir in tomato sauce, tomato puree, cinnamon, oil, salt, and pepper.",
+        "5. Transfer to a greased 9x13 inch baking dish.",
+        "6. Bake in preheated oven for 1 hour, or until top is crunchy."
+      ],
+      "description": "Syrian Baked Spaghetti (Syrian) — easy pasta recipe with 7 ingredients and 6 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "pasta",
+        "spaghetti",
+        "baked",
+        "Syrian cuisine",
+        "tomato sauce",
+        "cinnamon",
+        "vegetable oil",
+        "comfort food",
+        "Syrian"
+      ],
+      "datePublished": "2026-04-14",
+      "publishDate": "2026-04-14T09:00:00",
+      "addedDate": "2026-04-13T04:47:08",
+      "status": "PUBLISHED",
+      "slug": "syrian-spaghetti-53093",
+      "youtube": "https://www.youtube.com/watch?v=MGmaX9Uv_Gs",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "10 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "falafel-pita-sandwich-with-tahini-sauce-53091",
+        "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092",
+        "broccoli-stilton-soup-52842"
       ]
     }
   ]
