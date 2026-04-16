@@ -209,7 +209,7 @@
       "relatedRecipeIds": [
         "falafel-53266",
         "ratatouille-52908",
-        "chickpea-fajitas-52870"
+        "tortang-talong-53075"
       ]
     },
     {
@@ -1138,8 +1138,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "aubergine-hummus-grills-53278",
-        "chickpea-fajitas-52870",
-        "falafel-53266"
+        "tortang-talong-53075",
+        "chickpea-fajitas-52870"
       ]
     },
     {
@@ -1496,9 +1496,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
-        "broccoli-stilton-soup-52842",
-        "creamy-tomato-soup-52841",
-        "bread-omelette-53076"
+        "beef-rendang-53053",
+        "chicken-mushroom-hotpot-52846",
+        "broccoli-stilton-soup-52842"
       ]
     },
     {
@@ -1559,6 +1559,316 @@
       "relatedRecipeIds": [
         "falafel-pita-sandwich-with-tahini-sauce-53091",
         "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092",
+        "broccoli-stilton-soup-52842"
+      ]
+    },
+    {
+      "mealId": "53075",
+      "id": "tortang-talong-53075",
+      "title": "Grilled Eggplant Omelet",
+      "category": "Vegetarian",
+      "origin": "Filipino",
+      "image": "https://www.themealdb.com/images/media/meals/va668f1683209318.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/va668f1683209318.jpg",
+      "ingredients": [
+        "4 Egg Plants",
+        "2 Eggs",
+        "1 tsp Salt",
+        "4 tsp Olive Oil"
+      ],
+      "instructions": "1. Grill the eggplant until the skin turns black. 2. Let it cool, then peel off the skin. 3. Crack eggs into a bowl and beat with salt. 4. Flatten the eggplant and dip in the egg mixture. 5. Heat oil in a pan and fry the eggplant until both sides are cooked.",
+      "steps": [
+        "Grill the eggplant until the skin turns black.",
+        "2. Let it cool, then peel off the skin.",
+        "3. Crack eggs into a bowl and beat with salt.",
+        "4. Flatten the eggplant and dip in the egg mixture.",
+        "5. Heat oil in a pan and fry the eggplant until both sides are cooked."
+      ],
+      "description": "Grilled Eggplant Omelet (Filipino) — easy vegetarian recipe with 4 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "vegetarian",
+        "filipino food",
+        "eggplant recipes",
+        "omelet dishes",
+        "grilled vegetables",
+        "easy meals",
+        "healthy food",
+        "asian cuisine",
+        "Filipino",
+        "Grilled"
+      ],
+      "datePublished": "2026-04-15",
+      "publishDate": "2026-04-15T09:00:00",
+      "addedDate": "2026-04-14T04:47:06",
+      "status": "PUBLISHED",
+      "slug": "tortang-talong-53075",
+      "youtube": "https://www.youtube.com/watch?v=eLl8ekOu1MM",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "aubergine-hummus-grills-53278",
+        "ratatouille-52908",
+        "chickpea-fajitas-52870"
+      ]
+    },
+    {
+      "mealId": "53165",
+      "id": "torrijas-with-sherry-53165",
+      "title": "Sherry Torrijas Breakfast",
+      "category": "Breakfast",
+      "origin": "Spanish",
+      "image": "https://www.themealdb.com/images/media/meals/f3ee3y1763309332.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/f3ee3y1763309332.jpg",
+      "ingredients": [
+        "2 medium Egg",
+        "2 tbsp Double Cream",
+        "2 tblsp Milk",
+        "3 tsp Golden Caster Sugar",
+        "3  tablespoons Sweet Sherry",
+        "4 thick slices Bread",
+        "For frying Olive Oil",
+        "To serve Icing Sugar",
+        "To serve Creme Fraiche"
+      ],
+      "instructions": "1. Beat eggs with cream, milk, sugar, and sherry, then soak bread slices for 10 minutes.,2. Fry bread in olive oil until dark golden and crisp.,3. Serve torrijas warm, dust with icing sugar, and offer crème fraîche on the side.",
+      "steps": [
+        "Beat eggs with cream, milk, sugar, and sherry, then soak bread slices for 10 minutes.,2.",
+        "Fry bread in olive oil until dark golden and crisp.,3.",
+        "Serve torrijas warm, dust with icing sugar, and offer crème fraîche on the side."
+      ],
+      "description": "Sherry Torrijas Breakfast (Spanish) — easy breakfast recipe with 9 ingredients and 3 steps. Ready in 10 min. Includes exact ingredients and clear instructi…",
+      "tags": [
+        "Spanish breakfast",
+        "torrijas",
+        "sherry",
+        "sweet dishes",
+        "breakfast ideas",
+        "crispy bread",
+        "European recipes",
+        "morning meals",
+        "Breakfast",
+        "Spanish"
+      ],
+      "datePublished": "2026-04-15",
+      "publishDate": "2026-04-15T09:00:00",
+      "addedDate": "2026-04-14T04:47:06",
+      "status": "PUBLISHED",
+      "slug": "torrijas-with-sherry-53165",
+      "youtube": "https://www.youtube.com/watch?v=RGUp1N5KAGY",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "10 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "bread-omelette-53076",
+        "dutch-poffertjes-mini-pancakes-53379",
+        "fruit-and-cream-cheese-breakfast-pastries-52957"
+      ]
+    },
+    {
+      "mealId": "53053",
+      "id": "beef-rendang-53053",
+      "title": "Delicious Beef Rendang",
+      "category": "Beef",
+      "origin": "Malaysian",
+      "image": "https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg",
+      "ingredients": [
+        "1lb Beef",
+        "5 tbs Vegetable Oil",
+        "1 Cinnamon Stick",
+        "3 Cloves",
+        "3 Star Anise",
+        "3 Cardamom",
+        "1 cup Coconut Cream",
+        "1 cup Water",
+        "2 tbs Tamarind Paste",
+        "6 Lime",
+        "1 tbs Sugar",
+        "5 Challots"
+      ],
+      "instructions": "1. Chop spice paste ingredients and blend until fine.,2. Heat oil in a stew pot, add spice paste and stir-fry until aromatic.,3. Add beef, coconut milk, and tamarind juice, then simmer until the meat is almost cooked.",
+      "steps": [
+        "Chop spice paste ingredients and blend until fine.,2.",
+        "Heat oil in a stew pot, add spice paste and stir-fry until aromatic.,3.",
+        "Add beef, coconut milk, and tamarind juice, then simmer until the meat is almost cooked."
+      ],
+      "description": "Delicious Beef Rendang (Malaysian) — easy beef recipe with 12 ingredients and 3 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "beef recipes",
+        "malaysian dishes",
+        "coconut cream",
+        "tamarind paste",
+        "asian cuisine",
+        "beef stew",
+        "spicy food",
+        "rendang",
+        "Beef",
+        "Malaysian"
+      ],
+      "datePublished": "2026-04-15",
+      "publishDate": "2026-04-15T09:00:00",
+      "addedDate": "2026-04-14T04:47:06",
+      "status": "PUBLISHED",
+      "slug": "beef-rendang-53053",
+      "youtube": "https://www.youtube.com/watch?v=Ot-dmfBaZrA",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "corned-beef-hash-53096",
+        "tortang-talong-53075"
+      ]
+    },
+    {
+      "mealId": "52846",
+      "id": "chicken-mushroom-hotpot-52846",
+      "title": "Hearty Chicken Mushroom Hotpot",
+      "category": "Chicken",
+      "origin": "British",
+      "image": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
+      "ingredients": [
+        "50g Butter",
+        "1 chopped Onion",
+        "100g Mushrooms",
+        "40g Plain Flour",
+        "1 Chicken Stock Cube",
+        "pinch Nutmeg",
+        "pinch Mustard Powder",
+        "250g Chicken",
+        "2 Handfuls Sweetcorn",
+        "2 large Potatoes",
+        "1 knob Butter"
+      ],
+      "instructions": "1. Heat oven to 200C/180C fan/gas 6.,2. Cook onion and mushrooms in butter over medium heat.,3. Stir in flour to make a roux, then add stock or water and seasonings.,4. Bring sauce to a boil, then reduce heat and add cooked chicken and vegetables.,5. Top with potatoes and brush with melted butter, baking until golden brown.",
+      "steps": [
+        "Heat oven to 200C/180C fan/gas 6.,2.",
+        "Cook onion and mushrooms in butter over medium heat.,3.",
+        "Stir in flour to make a roux, then add stock or water and seasonings.,4.",
+        "Bring sauce to a boil, then reduce heat and add cooked chicken and vegetables.,5.",
+        "Top with potatoes and brush with melted butter, baking until golden brown."
+      ],
+      "description": "Hearty Chicken Mushroom Hotpot (British) — easy chicken recipe with 11 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "chicken recipes",
+        "hotpot",
+        "British cuisine",
+        "comfort food",
+        "mushroom dishes",
+        "sweetcorn",
+        "potatoes",
+        "oven baked",
+        "Chicken",
+        "British"
+      ],
+      "datePublished": "2026-04-15",
+      "publishDate": "2026-04-15T09:00:00",
+      "addedDate": "2026-04-14T04:47:06",
+      "status": "PUBLISHED",
+      "slug": "chicken-mushroom-hotpot-52846",
+      "youtube": "https://www.youtube.com/watch?v=bXKWu4GojNI",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "broccoli-stilton-soup-52842",
+        "corned-beef-hash-53096",
+        "creamy-tomato-soup-52841"
+      ]
+    },
+    {
+      "mealId": "52980",
+      "id": "stamppot-52980",
+      "title": "Hearty Dutch Stamppot",
+      "category": "Pork",
+      "origin": "Dutch",
+      "image": "https://www.themealdb.com/images/media/meals/hyarod1565090529.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/hyarod1565090529.jpg",
+      "ingredients": [
+        "1.5kg Potatoes",
+        "2 leaves Bay Leaf",
+        "2 Shallots",
+        "3 tbs Butter",
+        "750g Kale",
+        "2 Sausages",
+        "500ml Milk",
+        "Grated Nutmeg",
+        "Pinch Salt",
+        "Pinch Pepper"
+      ],
+      "instructions": "1. Wash and peel potatoes, cutting into similar sized pieces. \n2. Boil potatoes and bay leaves in salted water for 20 minutes, then discard bay leaves. \n3. Wash and chop curly kale, sauteing in butter until tender. \n4. Warm milk and mash cooked potatoes with remaining butter and milk. \n5. Mix cooked kale through mashed potatoes and top with smoked sausage",
+      "steps": [
+        "1. Wash and peel potatoes, cutting into similar sized pieces.",
+        "2. Boil potatoes and bay leaves in salted water for 20 minutes, then discard bay leaves.",
+        "3. Wash and chop curly kale, sauteing in butter until tender.",
+        "4. Warm milk and mash cooked potatoes with remaining butter and milk.",
+        "5. Mix cooked kale through mashed potatoes and top with smoked sausage"
+      ],
+      "description": "Hearty Dutch Stamppot (Dutch) — easy pork recipe with 10 ingredients and 5 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Dutch",
+        "Savory",
+        "Comfort Food",
+        "Kale",
+        "Sausage",
+        "Hearty",
+        "Breakfast",
+        "European",
+        "Pork"
+      ],
+      "datePublished": "2026-04-15",
+      "publishDate": "2026-04-15T09:00:00",
+      "addedDate": "2026-04-14T04:47:06",
+      "status": "PUBLISHED",
+      "slug": "stamppot-52980",
+      "youtube": "https://www.youtube.com/watch?v=hTrSXryX31A",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "20 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "dutch-poffertjes-mini-pancakes-53379",
+        "bread-omelette-53076",
         "broccoli-stilton-soup-52842"
       ]
     }

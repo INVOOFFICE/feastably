@@ -29,6 +29,11 @@
 - [Dutch Mini Pancakes](https://akkous.com/recipes/dutch-poffertjes-mini-pancakes-53379/) — Dutch | Breakfast
 - [British Corned Beef Hash](https://akkous.com/recipes/corned-beef-hash-53096/) — British | Beef
 - [Syrian Baked Spaghetti](https://akkous.com/recipes/syrian-spaghetti-53093/) — Syrian | Pasta
+- [Grilled Eggplant Omelet](https://akkous.com/recipes/tortang-talong-53075/) — Filipino | Vegetarian
+- [Sherry Torrijas Breakfast](https://akkous.com/recipes/torrijas-with-sherry-53165/) — Spanish | Breakfast
+- [Delicious Beef Rendang](https://akkous.com/recipes/beef-rendang-53053/) — Malaysian | Beef
+- [Hearty Chicken Mushroom Hotpot](https://akkous.com/recipes/chicken-mushroom-hotpot-52846/) — British | Chicken
+- [Hearty Dutch Stamppot](https://akkous.com/recipes/stamppot-52980/) — Dutch | Pork
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.
