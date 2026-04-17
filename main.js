@@ -55,7 +55,7 @@
   }
 
   var TRENDING_SLIDER_MAX = 12;
-  var HERO_CAROUSEL_MAX = 6;
+  var HERO_CAROUSEL_MAX = 5;
   var HERO_AUTO_MS = 7000;
 
   var heroCarousel = {
@@ -509,19 +509,7 @@
     var max = HERO_CAROUSEL_MAX;
     if (!state.recipes.length) return [];
     var sorted = sortRecipesByPublishDateDesc(state.recipes);
-    var list = sorted.slice(0, max);
-    var featured = state.recipes.filter(function (r) {
-      return r.featured;
-    })[0];
-    if (featured && list.length) {
-      var fid = featured.id;
-      list = list.filter(function (r) {
-        return r.id !== fid;
-      });
-      list.unshift(featured);
-      list = list.slice(0, max);
-    }
-    return list;
+    return sorted.slice(0, max);
   }
 
   function heroRecipeMetaLine(recipe) {
