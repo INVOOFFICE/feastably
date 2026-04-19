@@ -44,6 +44,11 @@
 - [Classic Battenberg Cake](https://akkous.com/recipes/battenberg-cake-52894/) — British | Dessert
 - [Braised Lamb Shoulder with Beans](https://akkous.com/recipes/spanish-style-slow-cooked-lamb-shoulder-beans-53175/) — Spanish | Lamb
 - [Refreshing Sesame Cucumber Salad](https://akkous.com/recipes/sesame-cucumber-salad-53378/) — Chinese | Side
+- [Hearty Canadian Jiggs Dinner](https://akkous.com/recipes/jiggs-dinner-53335/) — Canadian | Beef
+- [Thai Coconut Chicken Soup](https://akkous.com/recipes/tom-kha-gai-53207/) — Thai | Chicken
+- [Polish Pancakes Recipe](https://akkous.com/recipes/polskie-nalesniki-polish-pancakes-53022/) — Polish | Dessert
+- [Lamb Biryani Recipe](https://akkous.com/recipes/lamb-biryani-52805/) — Indian | Lamb
+- [Tunisian Chakchouka Recipe](https://akkous.com/recipes/chakchouka-52969/) — Tunisian | Miscellaneous
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.

@@ -959,8 +959,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "jamaican-curry-goat-53354",
-        "battenberg-cake-52894",
-        "jamaican-cornmeal-porridge-53363"
+        "lamb-biryani-52805",
+        "battenberg-cake-52894"
       ]
     },
     {
@@ -1500,7 +1500,7 @@
       "relatedRecipeIds": [
         "beef-rendang-53053",
         "jamaican-beef-patties-52938",
-        "karbonader-lean-beef-patties-with-caramelized-onions-53125"
+        "jiggs-dinner-53335"
       ]
     },
     {
@@ -1742,9 +1742,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "jiggs-dinner-53335",
         "traditional-croatian-goulash-53057",
-        "corned-beef-hash-53096",
-        "jamaican-beef-patties-52938"
+        "corned-beef-hash-53096"
       ]
     },
     {
@@ -1809,7 +1809,7 @@
       "relatedRecipeIds": [
         "chicken-enchilada-casserole-52765",
         "sweet-and-sour-chicken-53376",
-        "broccoli-stilton-soup-52842"
+        "tom-kha-gai-53207"
       ]
     },
     {
@@ -1999,8 +1999,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "beef-rendang-53053",
-        "karbonader-lean-beef-patties-with-caramelized-onions-53125",
-        "corned-beef-hash-53096"
+        "jiggs-dinner-53335",
+        "karbonader-lean-beef-patties-with-caramelized-onions-53125"
       ]
     },
     {
@@ -2056,7 +2056,7 @@
       "relatedRecipeIds": [
         "sweet-and-sour-chicken-53376",
         "chicken-mushroom-hotpot-52846",
-        "chickpea-fajitas-52870"
+        "tom-kha-gai-53207"
       ]
     },
     {
@@ -2117,6 +2117,7 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "polskie-nalesniki-polish-pancakes-53022",
         "battenberg-cake-52894",
         "creamy-tomato-soup-52841"
       ]
@@ -2179,9 +2180,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "jiggs-dinner-53335",
         "traditional-croatian-goulash-53057",
-        "beef-rendang-53053",
-        "corned-beef-hash-53096"
+        "beef-rendang-53053"
       ]
     },
     {
@@ -2317,7 +2318,7 @@
       "relatedRecipeIds": [
         "chicken-enchilada-casserole-52765",
         "chicken-mushroom-hotpot-52846",
-        "sesame-cucumber-salad-53378"
+        "tom-kha-gai-53207"
       ]
     },
     {
@@ -2390,8 +2391,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "pistachio-cake-53293",
-        "broccoli-stilton-soup-52842",
-        "chicken-mushroom-hotpot-52846"
+        "polskie-nalesniki-polish-pancakes-53022",
+        "broccoli-stilton-soup-52842"
       ]
     },
     {
@@ -2455,9 +2456,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "lamb-biryani-52805",
         "quick-gazpacho-53173",
-        "padron-peppers-53150",
-        "roast-fennel-and-aubergine-paella-52942"
+        "padron-peppers-53150"
       ]
     },
     {
@@ -2517,6 +2518,327 @@
       "trending": true,
       "relatedRecipeIds": [
         "sweet-and-sour-chicken-53376"
+      ]
+    },
+    {
+      "mealId": "53335",
+      "id": "jiggs-dinner-53335",
+      "title": "Hearty Canadian Jiggs Dinner",
+      "category": "Beef",
+      "origin": "Canadian",
+      "image": "https://www.themealdb.com/images/media/meals/z1tfnw1764443171.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/z1tfnw1764443171.jpg",
+      "ingredients": [
+        "2 Lbs Beef",
+        "1 cup Yellow Split Peas",
+        "1 head Cabbage",
+        "6 Carrots",
+        "1 large Turnips",
+        "8 Potatoes",
+        "3  tablespoons Butter",
+        "To taste Black Pepper"
+      ],
+      "instructions": "1. Soak salt beef and split peas in water overnight.,2. Boil the salt beef and peas for 2 hours.,3. Remove the peas and mix with butter and pepper.,4. Add cabbage, turnip, carrots, and potatoes, boiling until tender.,5. Serve the meal with the cooking liquid as a pot liquor or reduced jus.",
+      "steps": [
+        "Soak salt beef and split peas in water overnight.,2.",
+        "Boil the salt beef and peas for 2 hours.,3.",
+        "Remove the peas and mix with butter and pepper.,4.",
+        "Add cabbage, turnip, carrots, and potatoes, boiling until tender.,5.",
+        "Serve the meal with the cooking liquid as a pot liquor or reduced jus."
+      ],
+      "description": "Hearty Canadian Jiggs Dinner (Canadian) — easy beef recipe with 8 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Canadian cuisine",
+        "comfort food",
+        "beef recipes",
+        "traditional meals",
+        "pease pudding",
+        "salt beef",
+        "hearty dinners",
+        "winter recipes",
+        "Beef",
+        "Canadian"
+      ],
+      "datePublished": "2026-04-18",
+      "publishDate": "2026-04-18T09:00:00",
+      "addedDate": "2026-04-17T04:07:03",
+      "status": "PUBLISHED",
+      "slug": "jiggs-dinner-53335",
+      "youtube": "https://www.youtube.com/watch?v=w-rVGvZXVfs",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "beef-rendang-53053",
+        "karbonader-lean-beef-patties-with-caramelized-onions-53125",
+        "traditional-croatian-goulash-53057"
+      ]
+    },
+    {
+      "mealId": "53207",
+      "id": "tom-kha-gai-53207",
+      "title": "Thai Coconut Chicken Soup",
+      "category": "Chicken",
+      "origin": "Thai",
+      "image": "https://www.themealdb.com/images/media/meals/ol2xxt1763582263.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/ol2xxt1763582263.jpg",
+      "ingredients": [
+        "800ml Chicken Stock",
+        "800g Coconut Milk",
+        "2 tablespoons Galangal Paste",
+        "2 Lemongrass Stalks",
+        "8 Lime Leaves",
+        "500g Chicken Thighs",
+        "300g Oyster Mushrooms",
+        "6 Birds-eye Chillies",
+        "1 tablespoon Caster Sugar",
+        "5 tablespoons Fish Sauce",
+        "Juice of 3 Lime",
+        "To serve Coriander Leaves",
+        "To serve Rice"
+      ],
+      "instructions": "1. Combine chicken stock, coconut milk, galangal, lemongrass, and lime leaves, and simmer for 6-8 minutes. 2. Add chicken and cook until tender, then add mushrooms and chillies, and simmer for 3-5 minutes. 3. Remove aromatics and serve with coriander and steamed rice",
+      "steps": [
+        "Combine chicken stock, coconut milk, galangal, lemongrass, and lime leaves, and simmer for 6-8 minutes.",
+        "2. Add chicken and cook until tender, then add mushrooms and chillies, and simmer for 3-5 minutes.",
+        "3. Remove aromatics and serve with coriander and steamed rice"
+      ],
+      "description": "Thai Coconut Chicken Soup (Thai) — easy chicken recipe with 13 ingredients and 3 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Thai food",
+        "coconut milk",
+        "chicken soup",
+        "lemongrass",
+        "lime leaves",
+        "galangal",
+        "Asian recipes",
+        "comfort food",
+        "Chicken",
+        "Thai"
+      ],
+      "datePublished": "2026-04-18",
+      "publishDate": "2026-04-18T09:00:00",
+      "addedDate": "2026-04-17T04:07:03",
+      "status": "PUBLISHED",
+      "slug": "tom-kha-gai-53207",
+      "youtube": "https://www.youtube.com/watch?v=2BbIZwmIP7Q",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "13 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "chicken-mushroom-hotpot-52846",
+        "chicken-enchilada-casserole-52765",
+        "sweet-and-sour-chicken-53376"
+      ]
+    },
+    {
+      "mealId": "53022",
+      "id": "polskie-nalesniki-polish-pancakes-53022",
+      "title": "Polish Pancakes Recipe",
+      "category": "Dessert",
+      "origin": "Polish",
+      "image": "https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg",
+      "ingredients": [
+        "1 cup Flour",
+        "2 Eggs",
+        "1 cup Milk",
+        "3/4 cup Water",
+        "Pinch Salt",
+        "1 tsp Sugar",
+        "3 tbs Butter"
+      ],
+      "instructions": "1. Mix flour, eggs, milk, water, and salt in a bowl. 2. Add butter or oil and mix well. 3. Heat a non-stick pan and pour in the batter, swirling to spread. 4. Flip when the pancake pulls away from the sides and cook briefly on the other side.",
+      "steps": [
+        "Mix flour, eggs, milk, water, and salt in a bowl.",
+        "2. Add butter or oil and mix well.",
+        "3. Heat a non-stick pan and pour in the batter, swirling to spread.",
+        "4. Flip when the pancake pulls away from the sides and cook briefly on the other side."
+      ],
+      "description": "Polish Pancakes Recipe (Polish) — easy dessert recipe with 7 ingredients and 4 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "polish pancakes",
+        "dessert recipes",
+        "breakfast ideas",
+        "snack ideas",
+        "european cuisine",
+        "sweet treats",
+        "pancake recipes",
+        "traditional polish",
+        "Dessert",
+        "Polish"
+      ],
+      "datePublished": "2026-04-18",
+      "publishDate": "2026-04-18T09:00:00",
+      "addedDate": "2026-04-17T04:07:03",
+      "status": "PUBLISHED",
+      "slug": "polskie-nalesniki-polish-pancakes-53022",
+      "youtube": "https://www.youtube.com/watch?v=EZS4ev2crHc",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "pistachio-cake-53293",
+        "battenberg-cake-52894",
+        "chakchouka-52969"
+      ]
+    },
+    {
+      "mealId": "52805",
+      "id": "lamb-biryani-52805",
+      "title": "Lamb Biryani Recipe",
+      "category": "Lamb",
+      "origin": "Indian",
+      "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+      "ingredients": [
+        "12 Cashew nuts",
+        "½ tbsp Khus khus",
+        "½ tbsp Cumin seeds",
+        "3 sliced thinly Onions",
+        "2 tsp Ginger garlic paste",
+        "4 whole Garlic",
+        "Leaves Mint",
+        "Leaves Cilantro",
+        "½ tsp dissolved in ½ cup warm milk Saffron",
+        "2 tbsp Ghee",
+        "2 Cups Basmati rice",
+        "½ cup Full fat yogurt",
+        "1 tbsp Cumin Seeds",
+        "½ Bay leaf",
+        "1 thin piece Cinnamon",
+        "3 Cloves",
+        "2 Cardamom",
+        "1 lb Lamb",
+        "1 tsp Red Chilli powder",
+        "1 tbsp Biryani masala"
+      ],
+      "instructions": "Grind cashew, poppy seeds and cumin seeds into a smooth paste.,Deep fry sliced onions and cashewnuts until golden brown.,Wash and soak basmati rice for twenty minutes.,Cook lamb with spices and yogurt in a big pan.,Boil rice with salt and jeera, then drain.,Layer lamb, rice, and garnishes in a big pan.,Cover and bake in oven or cook on stove.",
+      "steps": [
+        "Grind cashew, poppy seeds and cumin seeds into a smooth paste.,Deep fry sliced onions and cashewnuts until golden brown.,Wash and soak basmati rice for twenty minutes.,Cook lamb with spices and yogurt in a big pan.,Boil rice with salt and jeera, then drain.,Layer lamb, rice, and garnishes in a big pan.,Cover and bake in oven or cook on stove."
+      ],
+      "description": "Lamb Biryani Recipe (Indian) — easy lamb recipe with 20 ingredients and 1 step. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Lamb",
+        "Biryani",
+        "Indian",
+        "Curry",
+        "Meat",
+        "Rice",
+        "Spicy",
+        "Traditional"
+      ],
+      "datePublished": "2026-04-18",
+      "publishDate": "2026-04-18T09:00:00",
+      "addedDate": "2026-04-17T04:07:03",
+      "status": "PUBLISHED",
+      "slug": "lamb-biryani-52805",
+      "youtube": "https://www.youtube.com/watch?v=r7SYVSG5nxo",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "spanish-style-slow-cooked-lamb-shoulder-beans-53175",
+        "smoked-haddock-kedgeree-52964",
+        "bread-omelette-53076"
+      ]
+    },
+    {
+      "mealId": "52969",
+      "id": "chakchouka-52969",
+      "title": "Tunisian Chakchouka Recipe",
+      "category": "Miscellaneous",
+      "origin": "Tunisian",
+      "image": "https://www.themealdb.com/images/media/meals/gpz67p1560458984.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/gpz67p1560458984.jpg",
+      "ingredients": [
+        "4 Tomatoes",
+        "2 tbs Olive Oil",
+        "1 Diced Onion",
+        "1 sliced Red Pepper",
+        "1 sliced Green Pepper",
+        "3 Cloves Crushed Garlic",
+        "1 tsp Cumin",
+        "1 tsp Paprika",
+        "3/4 teaspoon Salt",
+        "1/2 teaspoon Chili Powder",
+        "4 Eggs"
+      ],
+      "instructions": "1. Heat oil in a large cast iron skillet over medium high heat. 2. Add the onion and sauté for 2-3 minutes. 3. Add the peppers and garlic, and sauté for an additional 3-5 minutes. 4. Add the tomatoes, cumin, paprika, salt, and chili powder, and simmer for 10-15 minutes. 5. Make four craters in the mixture and crack one egg into each. 6. Cover the skillet and simmer for 5-7 minutes, until the eggs have set.",
+      "steps": [
+        "Heat oil in a large cast iron skillet over medium high heat.",
+        "2. Add the onion and sauté for 2-3 minutes.",
+        "3. Add the peppers and garlic, and sauté for an additional 3-5 minutes.",
+        "4. Add the tomatoes, cumin, paprika, salt, and chili powder, and simmer for 10-15 minutes.",
+        "5. Make four craters in the mixture and crack one egg into each.",
+        "6. Cover the skillet and simmer for 5-7 minutes, until the eggs have set."
+      ],
+      "description": "Tunisian Chakchouka Recipe (Tunisian) — easy miscellaneous recipe with 11 ingredients and 6 steps. Ready in 20 min. Includes exact ingredients and clear in…",
+      "tags": [
+        "Tunisian cuisine",
+        "North African recipes",
+        "egg dishes",
+        "vegetable recipes",
+        "spicy food",
+        "breakfast ideas",
+        "one pot meals",
+        "skillet recipes",
+        "Miscellaneous",
+        "Tunisian"
+      ],
+      "datePublished": "2026-04-18",
+      "publishDate": "2026-04-18T09:00:00",
+      "addedDate": "2026-04-17T04:07:03",
+      "status": "PUBLISHED",
+      "slug": "chakchouka-52969",
+      "youtube": "https://www.youtube.com/watch?v=EHKNu93MSx4",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "20 min",
+      "prepTime": "10 min",
+      "totalTime": "30 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "beef-rendang-53053",
+        "polskie-nalesniki-polish-pancakes-53022",
+        "torrijas-with-sherry-53165"
       ]
     }
   ]
