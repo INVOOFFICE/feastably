@@ -49,6 +49,11 @@
 - [Polish Pancakes Recipe](https://akkous.com/recipes/polskie-nalesniki-polish-pancakes-53022/) — Polish | Dessert
 - [Lamb Biryani Recipe](https://akkous.com/recipes/lamb-biryani-52805/) — Indian | Lamb
 - [Tunisian Chakchouka Recipe](https://akkous.com/recipes/chakchouka-52969/) — Tunisian | Miscellaneous
+- [Classic Beef Wellington](https://akkous.com/recipes/beef-wellington-52803/) — British | Beef
+- [Thai Chicken Soup](https://akkous.com/recipes/thai-green-chicken-soup-53214/) — Thai | Chicken
+- [Sweet Potato Jamaican Pudding](https://akkous.com/recipes/jamaican-sweet-potato-pudding-53344/) — Jamaican | Dessert
+- [Hearty Lamb Plov](https://akkous.com/recipes/lamb-pilaf-plov-53083/) — Russian | Lamb
+- [Hearty Syrian Rice](https://akkous.com/recipes/syrian-rice-with-meat-53095/) — Syrian | Miscellaneous
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.
