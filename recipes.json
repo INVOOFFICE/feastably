@@ -1263,9 +1263,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "fettucine-alfredo-52835",
         "cream-cheese-tart-52779",
-        "salmon-eggs-eggs-benedict-52962",
-        "smoked-haddock-kedgeree-52964"
+        "salmon-eggs-eggs-benedict-52962"
       ]
     },
     {
@@ -1559,9 +1559,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "fettucine-alfredo-52835",
         "syrian-rice-with-meat-53095",
-        "falafel-pita-sandwich-with-tahini-sauce-53091",
-        "fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil-53092"
+        "falafel-pita-sandwich-with-tahini-sauce-53091"
       ]
     },
     {
@@ -2056,7 +2056,7 @@
       "relatedRecipeIds": [
         "sweet-and-sour-chicken-53376",
         "chicken-mushroom-hotpot-52846",
-        "thai-green-chicken-soup-53214"
+        "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218"
       ]
     },
     {
@@ -2318,7 +2318,7 @@
       "relatedRecipeIds": [
         "chicken-enchilada-casserole-52765",
         "chicken-mushroom-hotpot-52846",
-        "thai-green-chicken-soup-53214"
+        "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218"
       ]
     },
     {
@@ -2456,9 +2456,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "hot-cumin-lamb-wrap-with-crunchy-slaw-spicy-mayo-53258",
         "lamb-pilaf-plov-53083",
-        "lamb-biryani-52805",
-        "quick-gazpacho-53173"
+        "lamb-biryani-52805"
       ]
     },
     {
@@ -2770,9 +2770,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "hot-cumin-lamb-wrap-with-crunchy-slaw-spicy-mayo-53258",
         "lamb-pilaf-plov-53083",
-        "spanish-style-slow-cooked-lamb-shoulder-beans-53175",
-        "smoked-haddock-kedgeree-52964"
+        "spanish-style-slow-cooked-lamb-shoulder-beans-53175"
       ]
     },
     {
@@ -2837,8 +2837,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "syrian-rice-with-meat-53095",
-        "beef-rendang-53053",
-        "polskie-nalesniki-polish-pancakes-53022"
+        "duck-confit-52907",
+        "beef-rendang-53053"
       ]
     },
     {
@@ -3094,9 +3094,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "hot-cumin-lamb-wrap-with-crunchy-slaw-spicy-mayo-53258",
         "spanish-style-slow-cooked-lamb-shoulder-beans-53175",
-        "lamb-biryani-52805",
-        "stamppot-52980"
+        "lamb-biryani-52805"
       ]
     },
     {
@@ -3160,8 +3160,315 @@
       "trending": true,
       "relatedRecipeIds": [
         "chakchouka-52969",
+        "duck-confit-52907",
+        "syrian-spaghetti-53093"
+      ]
+    },
+    {
+      "mealId": "53218",
+      "id": "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218",
+      "title": "Homemade Chicken Shawarma Wrap",
+      "category": "Chicken",
+      "origin": "Saudi Arabian",
+      "image": "https://www.themealdb.com/images/media/meals/hcg6l91763596970.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/hcg6l91763596970.jpg",
+      "ingredients": [
+        "1kg Chicken Breast",
+        "2 cloves minced Garlic",
+        "1 tblsp Ground Coriander",
+        "1 tblsp Ground Cumin",
+        "1 tblsp Ground Cardomom",
+        "1 tsp Cayenne Pepper",
+        "2 tsp Smoked Paprika",
+        "2 tsp Salt",
+        "2 tblsp Lemon Juice",
+        "3 tablespoons Olive Oil",
+        "1 cup Greek Yogurt",
+        "1 clove peeled crushed Garlic",
+        "1 tsp Cumin",
+        "Splash Lemon Juice"
+      ],
+      "instructions": "1. Slice chicken into small pieces. 2. Marinate chicken in a mix of garlic, coriander, cumin, and spices. 3. Grill chicken and toast flatbreads. 4. Prepare garlic herb yoghurt sauce. 5. Assemble the wrap with chicken, sauce, lettuce, and tomato.",
+      "steps": [
+        "Slice chicken into small pieces.",
+        "2. Marinate chicken in a mix of garlic, coriander, cumin, and spices.",
+        "3. Grill chicken and toast flatbreads.",
+        "4. Prepare garlic herb yoghurt sauce.",
+        "5. Assemble the wrap with chicken, sauce, lettuce, and tomato."
+      ],
+      "description": "Homemade Chicken Shawarma Wrap (Saudi Arabian) — easy chicken recipe with 14 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Middle Eastern",
+        "Chicken",
+        "Wrap",
+        "Shawarma",
+        "Yoghurt Sauce",
+        "Garlic",
+        "Herbs",
+        "Saudi Arabian",
+        "Homemade"
+      ],
+      "datePublished": "2026-04-20",
+      "publishDate": "2026-04-20T09:00:00",
+      "addedDate": "2026-04-18T04:06:56",
+      "status": "PUBLISHED",
+      "slug": "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218",
+      "youtube": "https://www.youtube.com/watch?v=TROZvPHqP1g",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "chicken-enchilada-casserole-52765",
+        "chicken-mushroom-hotpot-52846",
+        "sweet-and-sour-chicken-53376"
+      ]
+    },
+    {
+      "mealId": "52917",
+      "id": "white-chocolate-creme-brulee-52917",
+      "title": "Rich White Chocolate Brulee",
+      "category": "Dessert",
+      "origin": "French",
+      "image": "https://www.themealdb.com/images/media/meals/uryqru1511798039.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/uryqru1511798039.jpg",
+      "ingredients": [
+        "568ml Double Cream",
+        "100g White Chocolate Chips",
+        "Pod of Vanilla",
+        "6 Egg Yolks",
+        "2 tbs Caster Sugar",
+        "Top Caster Sugar"
+      ],
+      "instructions": "1. Heat cream, chocolate, and vanilla in a pan until chocolate melts.,2. Remove from heat, infuse for 10 minutes, then scrape pod seeds into cream.,3. Beat egg yolks and sugar until pale, stir in chocolate cream.,4. Strain into a jug, pour into ramekins, and bake at 160C for 15-20 minutes.,5. Chill in the fridge for at least 4 hours, then sprinkle sugar on top and caramelize.",
+      "steps": [
+        "Heat cream, chocolate, and vanilla in a pan until chocolate melts.,2.",
+        "Remove from heat, infuse for 10 minutes, then scrape pod seeds into cream.,3.",
+        "Beat egg yolks and sugar until pale, stir in chocolate cream.,4.",
+        "Strain into a jug, pour into ramekins, and bake at 160C for 15-20 minutes.,5.",
+        "Chill in the fridge for at least 4 hours, then sprinkle sugar on top and caramelize."
+      ],
+      "description": "Rich White Chocolate Brulee (French) — easy dessert recipe with 6 ingredients and 5 steps. Ready in 20 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Dessert",
+        "Pudding",
+        "Dinner Party",
+        "French Cuisine",
+        "Vanilla",
+        "White Chocolate",
+        "Creamy Treats",
+        "Brulee",
+        "French",
+        "Rich"
+      ],
+      "datePublished": "2026-04-20",
+      "publishDate": "2026-04-20T09:00:00",
+      "addedDate": "2026-04-18T04:06:56",
+      "status": "PUBLISHED",
+      "slug": "white-chocolate-creme-brulee-52917",
+      "youtube": "https://www.youtube.com/watch?v=LmJ0lsPLHDc",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "20 min",
+      "prepTime": "10 min",
+      "totalTime": "30 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "battenberg-cake-52894",
+        "jamaican-sweet-potato-pudding-53344",
+        "pistachio-cake-53293"
+      ]
+    },
+    {
+      "mealId": "53258",
+      "id": "hot-cumin-lamb-wrap-with-crunchy-slaw-spicy-mayo-53258",
+      "title": "Lamb Wrap with Crunchy Slaw",
+      "category": "Lamb",
+      "origin": "Turkish",
+      "image": "https://www.themealdb.com/images/media/meals/jyylmo1763790808.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/jyylmo1763790808.jpg",
+      "ingredients": [
+        "4 small Lamb Leg",
+        "2 tsp Olive Oil",
+        "1 tsp Ground Cumin",
+        "1 tablespoon Sugar",
+        "3  tablespoons White Wine Vinegar",
+        "2 Carrots",
+        "2 sliced Spring Onions",
+        "400g White Cabbage",
+        "5 Sweet Peppadew Peppers",
+        "3  tablespoons Mayonnaise",
+        "4 large Pita Bread"
+      ],
+      "instructions": "1. Griddle lamb steaks with oil, cumin, and seasoning. 2. Mix vinegar, sugar, carrots, onions, and cabbage. 3. Combine peppers and mayo, then assemble the wrap",
+      "steps": [
+        "Griddle lamb steaks with oil, cumin, and seasoning.",
+        "2. Mix vinegar, sugar, carrots, onions, and cabbage.",
+        "3. Combine peppers and mayo, then assemble the wrap"
+      ],
+      "description": "Lamb Wrap with Crunchy Slaw (Turkish) — easy lamb recipe with 11 ingredients and 3 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "lamb recipes",
+        "wraps",
+        "slaw",
+        "spicy mayo",
+        "pita bread",
+        "turkish food",
+        "easy meals",
+        "lunch ideas",
+        "Lamb",
+        "Turkish"
+      ],
+      "datePublished": "2026-04-20",
+      "publishDate": "2026-04-20T09:00:00",
+      "addedDate": "2026-04-18T04:06:56",
+      "status": "PUBLISHED",
+      "slug": "hot-cumin-lamb-wrap-with-crunchy-slaw-spicy-mayo-53258",
+      "youtube": "",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "lamb-pilaf-plov-53083",
+        "spanish-style-slow-cooked-lamb-shoulder-beans-53175",
+        "lamb-biryani-52805"
+      ]
+    },
+    {
+      "mealId": "52907",
+      "id": "duck-confit-52907",
+      "title": "Braised Duck Legs",
+      "category": "Miscellaneous",
+      "origin": "French",
+      "image": "https://www.themealdb.com/images/media/meals/wvpvsu1511786158.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/wvpvsu1511786158.jpg",
+      "ingredients": [
+        "Handful Sea Salt",
+        "4 Bay Leaf",
+        "4 cloves Garlic",
+        "Handful Thyme",
+        "4 Duck Legs",
+        "100ml White Wine"
+      ],
+      "instructions": "1. Season duck legs with salt, garlic, and herbs, then refrigerate overnight.,2. Cook the duck legs in white wine over low heat for 2 hours.,3. Let the duck cool, then crisp it up in the oven if desired.",
+      "steps": [
+        "Season duck legs with salt, garlic, and herbs, then refrigerate overnight.,2.",
+        "Cook the duck legs in white wine over low heat for 2 hours.,3.",
+        "Let the duck cool, then crisp it up in the oven if desired."
+      ],
+      "description": "Braised Duck Legs (French) — easy miscellaneous recipe with 6 ingredients and 3 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "duck legs",
+        "confit",
+        "french cuisine",
+        "braised meat",
+        "comfort food",
+        "slow cooking",
+        "main course",
+        "poultry",
+        "Miscellaneous",
+        "French"
+      ],
+      "datePublished": "2026-04-20",
+      "publishDate": "2026-04-20T09:00:00",
+      "addedDate": "2026-04-18T04:06:56",
+      "status": "PUBLISHED",
+      "slug": "duck-confit-52907",
+      "youtube": "https://www.youtube.com/watch?v=MHhLJqghY-o",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "syrian-rice-with-meat-53095",
+        "chakchouka-52969",
+        "white-chocolate-creme-brulee-52917"
+      ]
+    },
+    {
+      "mealId": "52835",
+      "id": "fettucine-alfredo-52835",
+      "title": "Creamy Fettucine Alfredo",
+      "category": "Pasta",
+      "origin": "Italian",
+      "image": "https://www.themealdb.com/images/media/meals/uquqtu1511178042.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/uquqtu1511178042.jpg",
+      "ingredients": [
+        "227g Clotted Cream",
+        "25g Butter",
+        "1 tsp Corn Flour",
+        "100g Parmesan Cheese",
+        "Grated Nutmeg",
+        "250g Fettuccine",
+        "Chopped Parsley"
+      ],
+      "instructions": "1. Combine clotted cream, butter, and cornflour in a saucepan over low heat.,2. Cook fettuccine in boiling water with salt until al dente.,3. Mix cooked fettuccine with the cream mixture and parmesan cheese.",
+      "steps": [
+        "Combine clotted cream, butter, and cornflour in a saucepan over low heat.,2.",
+        "Cook fettuccine in boiling water with salt until al dente.,3.",
+        "Mix cooked fettuccine with the cream mixture and parmesan cheese."
+      ],
+      "description": "Creamy Fettucine Alfredo (Italian) — easy pasta recipe with 7 ingredients and 3 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "pasta",
+        "italian food",
+        "creamy sauce",
+        "parmesan cheese",
+        "fettuccine alfredo",
+        "comfort food",
+        "easy recipes",
+        "dinner ideas",
+        "Italian",
+        "Creamy"
+      ],
+      "datePublished": "2026-04-20",
+      "publishDate": "2026-04-20T09:00:00",
+      "addedDate": "2026-04-18T04:06:56",
+      "status": "PUBLISHED",
+      "slug": "fettucine-alfredo-52835",
+      "youtube": "https://www.youtube.com/watch?v=FLEnwZvGzOE",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
         "syrian-spaghetti-53093",
-        "falafel-pita-sandwich-with-tahini-sauce-53091"
+        "salmon-prawn-risotto-52823",
+        "creamy-tomato-soup-52841"
       ]
     }
   ]
