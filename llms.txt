@@ -69,6 +69,11 @@
 - [Kenyan Mandazi Recipe](https://akkous.com/recipes/home-made-mandazi-52967/) — Kenyan | Breakfast
 - [Hearty Beef Pie](https://akkous.com/recipes/minced-beef-pie-52876/) — British | Beef
 - [Traditional Christmas Cake](https://akkous.com/recipes/christmas-cake-52990/) — British | Dessert
+- [Roasted Aubergine with Goat Cheese](https://akkous.com/recipes/roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273/) — Turkish | Vegetarian
+- [Hearty English Breakfast](https://akkous.com/recipes/full-english-breakfast-52896/) — British | Breakfast
+- [Hearty Egyptian Beef Fatteh](https://akkous.com/recipes/egyptian-fatteh-53031/) — Egyptian | Beef
+- [Spanish Chicken Bake](https://akkous.com/recipes/spanish-chicken-53164/) — Spanish | Chicken
+- [Spanish Churros Dessert](https://akkous.com/recipes/churros-53153/) — Spanish | Dessert
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.

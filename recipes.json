@@ -207,9 +207,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273",
         "falafel-53266",
-        "ratatouille-52908",
-        "tortang-talong-53075"
+        "ratatouille-52908"
       ]
     },
     {
@@ -518,9 +518,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273",
         "aubergine-hummus-grills-53278",
-        "chickpea-fajitas-52870",
-        "falafel-53266"
+        "chickpea-fajitas-52870"
       ]
     },
     {
@@ -1377,7 +1377,7 @@
       "relatedRecipeIds": [
         "falafel-pita-sandwich-with-tahini-sauce-53091",
         "aubergine-hummus-grills-53278",
-        "chickpea-fajitas-52870"
+        "roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273"
       ]
     },
     {
@@ -1440,7 +1440,7 @@
       "relatedRecipeIds": [
         "bread-omelette-53076",
         "fruit-and-cream-cheese-breakfast-pastries-52957",
-        "home-made-mandazi-52967"
+        "full-english-breakfast-52896"
       ]
     },
     {
@@ -1742,9 +1742,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "egyptian-fatteh-53031",
         "jiggs-dinner-53335",
-        "traditional-croatian-goulash-53057",
-        "beef-wellington-52803"
+        "traditional-croatian-goulash-53057"
       ]
     },
     {
@@ -1807,9 +1807,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "spanish-chicken-53164",
         "chicken-enchilada-casserole-52765",
-        "sweet-and-sour-chicken-53376",
-        "thai-green-chicken-soup-53214"
+        "sweet-and-sour-chicken-53376"
       ]
     },
     {
@@ -1872,7 +1872,7 @@
       "relatedRecipeIds": [
         "barbecue-pork-buns-53242",
         "dutch-poffertjes-mini-pancakes-53379",
-        "minced-beef-pie-52876"
+        "egyptian-fatteh-53031"
       ]
     },
     {
@@ -2000,7 +2000,7 @@
       "relatedRecipeIds": [
         "minced-beef-pie-52876",
         "beef-rendang-53053",
-        "jiggs-dinner-53335"
+        "egyptian-fatteh-53031"
       ]
     },
     {
@@ -2056,7 +2056,7 @@
       "relatedRecipeIds": [
         "sweet-and-sour-chicken-53376",
         "chicken-mushroom-hotpot-52846",
-        "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218"
+        "spanish-chicken-53164"
       ]
     },
     {
@@ -2180,9 +2180,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "egyptian-fatteh-53031",
         "jiggs-dinner-53335",
-        "minced-beef-pie-52876",
-        "traditional-croatian-goulash-53057"
+        "minced-beef-pie-52876"
       ]
     },
     {
@@ -2318,7 +2318,7 @@
       "relatedRecipeIds": [
         "chicken-enchilada-casserole-52765",
         "chicken-mushroom-hotpot-52846",
-        "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218"
+        "spanish-chicken-53164"
       ]
     },
     {
@@ -2578,9 +2578,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "egyptian-fatteh-53031",
         "beef-rendang-53053",
-        "karbonader-lean-beef-patties-with-caramelized-onions-53125",
-        "minced-beef-pie-52876"
+        "karbonader-lean-beef-patties-with-caramelized-onions-53125"
       ]
     },
     {
@@ -2645,7 +2645,7 @@
       "relatedRecipeIds": [
         "thai-green-chicken-soup-53214",
         "chicken-mushroom-hotpot-52846",
-        "chicken-enchilada-casserole-52765"
+        "spanish-chicken-53164"
       ]
     },
     {
@@ -2704,8 +2704,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "pistachio-cake-53293",
-        "jam-roly-poly-52890",
-        "jamaican-sweet-potato-pudding-53344"
+        "churros-53153",
+        "jam-roly-poly-52890"
       ]
     },
     {
@@ -2966,7 +2966,7 @@
       "relatedRecipeIds": [
         "tom-kha-gai-53207",
         "chicken-mushroom-hotpot-52846",
-        "chicken-enchilada-casserole-52765"
+        "spanish-chicken-53164"
       ]
     },
     {
@@ -3034,9 +3034,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "churros-53153",
         "jam-roly-poly-52890",
-        "polskie-nalesniki-polish-pancakes-53022",
-        "battenberg-cake-52894"
+        "polskie-nalesniki-polish-pancakes-53022"
       ]
     },
     {
@@ -3229,7 +3229,7 @@
       "relatedRecipeIds": [
         "chicken-enchilada-casserole-52765",
         "chicken-mushroom-hotpot-52846",
-        "sweet-and-sour-chicken-53376"
+        "spanish-chicken-53164"
       ]
     },
     {
@@ -3289,7 +3289,7 @@
       "relatedRecipeIds": [
         "battenberg-cake-52894",
         "christmas-cake-52990",
-        "jam-roly-poly-52890"
+        "churros-53153"
       ]
     },
     {
@@ -3532,7 +3532,7 @@
       "relatedRecipeIds": [
         "battenberg-cake-52894",
         "christmas-cake-52990",
-        "jamaican-sweet-potato-pudding-53344"
+        "churros-53153"
       ]
     },
     {
@@ -4043,7 +4043,7 @@
       "relatedRecipeIds": [
         "beef-wellington-52803",
         "corned-beef-hash-53096",
-        "traditional-croatian-goulash-53057"
+        "egyptian-fatteh-53031"
       ]
     },
     {
@@ -4111,6 +4111,326 @@
         "battenberg-cake-52894",
         "jam-roly-poly-52890",
         "pistachio-cake-53293"
+      ]
+    },
+    {
+      "mealId": "53273",
+      "id": "roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273",
+      "title": "Roasted Aubergine with Goat Cheese",
+      "category": "Vegetarian",
+      "origin": "Turkish",
+      "image": "https://www.themealdb.com/images/media/meals/iydbwy1763816111.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/iydbwy1763816111.jpg",
+      "ingredients": [
+        "2 sliced Aubergine",
+        "3  tablespoons Extra Virgin Olive Oil",
+        "12 Cherry Tomatoes",
+        "1 Pita Bread",
+        "3  tablespoons Balsamic Vinegar",
+        "Handful Mint",
+        "1 chopped Shallots",
+        "1 sliced Shallots",
+        "1 chopped Red Chilli",
+        "50g Goats Cheese",
+        "Handful Rocket"
+      ],
+      "instructions": "1. Heat oven to 200C, brush aubergine slices with oil, and roast for 20 mins with cherry tomatoes.,2. Mix balsamic vinegar, mint, shallots, chilli, and oil for the dressing.,3. Combine roasted aubergine, tomatoes, flatbread, and dressing, then top with goat cheese and rocket.",
+      "steps": [
+        "Heat oven to 200C, brush aubergine slices with oil, and roast for 20 mins with cherry tomatoes.,2.",
+        "Mix balsamic vinegar, mint, shallots, chilli, and oil for the dressing.,3.",
+        "Combine roasted aubergine, tomatoes, flatbread, and dressing, then top with goat cheese and rocket."
+      ],
+      "description": "Roasted Aubergine with Goat Cheese (Turkish) — easy vegetarian recipe with 11 ingredients and 3 steps. Ready in 10 min. Includes exact ingredients and clea…",
+      "tags": [
+        "turkish food",
+        "vegetarian recipes",
+        "aubergine dishes",
+        "goat cheese",
+        "flatbread",
+        "healthy meals",
+        "Vegetarian",
+        "Turkish",
+        "Roasted",
+        "Aubergine"
+      ],
+      "datePublished": "2026-04-23",
+      "publishDate": "2026-04-23T09:00:00",
+      "addedDate": "2026-04-21T04:06:58",
+      "status": "PUBLISHED",
+      "slug": "roast-aubergine-with-goat-s-cheese-toasted-flatbread-53273",
+      "youtube": "",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "20 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "aubergine-hummus-grills-53278",
+        "falafel-53266",
+        "thai-pumpkin-soup-53210"
+      ]
+    },
+    {
+      "mealId": "52896",
+      "id": "full-english-breakfast-52896",
+      "title": "Hearty English Breakfast",
+      "category": "Breakfast",
+      "origin": "British",
+      "image": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
+      "ingredients": [
+        "4 Sausages",
+        "4 Bacon",
+        "4 Mushrooms",
+        "3 Tomatoes",
+        "2 sliced Black Pudding",
+        "2 Eggs",
+        "1 Slice Bread",
+        "100g Baked Beans"
+      ],
+      "instructions": "1. Heat a grill plate over low heat, brush with olive oil, and cook sausages for 15-20 minutes.,2. Cook bacon for 2-4 minutes per side, until crispy.,3. Season and cook mushrooms for 4-5 minutes, then set aside.,4. Cook tomatoes for 4-5 minutes, until tender.,5. Cook black pudding slices for 1½-2 minutes per side.,6. Fry bread in a separate pan until crispy and golden.,7. Fry eggs in the same pan, seasoning with salt and pepper.",
+      "steps": [
+        "Heat a grill plate over low heat, brush with olive oil, and cook sausages for 15-20 minutes.,2.",
+        "Cook bacon for 2-4 minutes per side, until crispy.,3.",
+        "Season and cook mushrooms for 4-5 minutes, then set aside.,4.",
+        "Cook tomatoes for 4-5 minutes, until tender.,5.",
+        "Cook black pudding slices for 1½-2 minutes per side.,6.",
+        "Fry bread in a separate pan until crispy and golden.,7.",
+        "Fry eggs in the same pan, seasoning with salt and pepper."
+      ],
+      "description": "Hearty English Breakfast (British) — easy breakfast recipe with 8 ingredients and 7 steps. Ready in 25 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Breakfast",
+        "British",
+        "Hearty",
+        "Filling",
+        "Sausages",
+        "Bacon",
+        "Eggs",
+        "English"
+      ],
+      "datePublished": "2026-04-23",
+      "publishDate": "2026-04-23T09:00:00",
+      "addedDate": "2026-04-21T04:06:58",
+      "status": "PUBLISHED",
+      "slug": "full-english-breakfast-52896",
+      "youtube": "https://www.youtube.com/watch?v=FXjYU2Ensck",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "25 min",
+      "prepTime": "11 min",
+      "totalTime": "36 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "bread-omelette-53076",
+        "dutch-poffertjes-mini-pancakes-53379",
+        "fruit-and-cream-cheese-breakfast-pastries-52957"
+      ]
+    },
+    {
+      "mealId": "53031",
+      "id": "egyptian-fatteh-53031",
+      "title": "Hearty Egyptian Beef Fatteh",
+      "category": "Beef",
+      "origin": "Egyptian",
+      "image": "https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg",
+      "ingredients": [
+        "1lb Beef",
+        "1 Onion",
+        "1 Chicken Stock Cube",
+        "2 Tomatoes",
+        "4 Garlic Clove",
+        "1 tbs Tomato Puree",
+        "2 cups Rice",
+        "1/4 cup Noodles",
+        "1/4 cup Butter",
+        "2 cups Olive Oil",
+        "1 Pita Bread",
+        "1 tbs Cumin",
+        "3 tbs White Wine Vinegar",
+        "To taste Salt",
+        "To taste Pepper"
+      ],
+      "instructions": "1. Fry pita bread pieces in butter until golden. 2. Cook beef in a pot with onion, garlic, and spices until tender. 3. Prepare rice with noodles and spices. 4. Assemble the dish by layering bread, rice, and beef. 5. Top with a tangy tomato sauce and fried beef",
+      "steps": [
+        "Fry pita bread pieces in butter until golden.",
+        "2. Cook beef in a pot with onion, garlic, and spices until tender.",
+        "3. Prepare rice with noodles and spices.",
+        "4. Assemble the dish by layering bread, rice, and beef.",
+        "5. Top with a tangy tomato sauce and fried beef"
+      ],
+      "description": "Hearty Egyptian Beef Fatteh (Egyptian) — easy beef recipe with 15 ingredients and 5 steps. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Egyptian cuisine",
+        "beef recipes",
+        "middle eastern food",
+        "comfort food",
+        "rice dishes",
+        "pita bread",
+        "tomato sauce",
+        "Beef",
+        "Egyptian",
+        "Hearty"
+      ],
+      "datePublished": "2026-04-23",
+      "publishDate": "2026-04-23T09:00:00",
+      "addedDate": "2026-04-21T04:06:58",
+      "status": "PUBLISHED",
+      "slug": "egyptian-fatteh-53031",
+      "youtube": "https://www.youtube.com/watch?v=WLuOHkDE4A4",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "",
+      "prepTime": "",
+      "totalTime": "",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "jiggs-dinner-53335",
+        "minced-beef-pie-52876",
+        "beef-rendang-53053"
+      ]
+    },
+    {
+      "mealId": "53164",
+      "id": "spanish-chicken-53164",
+      "title": "Spanish Chicken Bake",
+      "category": "Chicken",
+      "origin": "Spanish",
+      "image": "https://www.themealdb.com/images/media/meals/pqulvm1763282839.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/pqulvm1763282839.jpg",
+      "ingredients": [
+        "8 Chicken Thighs",
+        "3 sliced thinly Onion",
+        "2 teaspoons Paprika",
+        "Zest and juice of 1 Lemon",
+        "Handful Parsley",
+        "150ml Chicken Stock",
+        "1 tablespoon Olive Oil"
+      ],
+      "instructions": "1. Preheat oven to 190C/170C fan/gas 5. 2. Mix all ingredients in a large ovenproof dish and season. 3. Bake for 45 minutes, stirring onions after 20 minutes.",
+      "steps": [
+        "Preheat oven to 190C/170C fan/gas",
+        "2. Mix all ingredients in a large ovenproof dish and season.",
+        "3. Bake for 45 minutes, stirring onions after 20 minutes."
+      ],
+      "description": "Spanish Chicken Bake (Spanish) — easy chicken recipe with 7 ingredients and 3 steps. Ready in 45 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "chicken recipes",
+        "spanish cuisine",
+        "easy dinners",
+        "baked chicken",
+        "one pot meals",
+        "comfort food",
+        "healthy eating",
+        "chicken thighs",
+        "Chicken",
+        "Spanish"
+      ],
+      "datePublished": "2026-04-23",
+      "publishDate": "2026-04-23T09:00:00",
+      "addedDate": "2026-04-21T04:06:58",
+      "status": "PUBLISHED",
+      "slug": "spanish-chicken-53164",
+      "youtube": "https://www.youtube.com/watch?v=fKqSOn5NCrk",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "45 min",
+      "prepTime": "20 min",
+      "totalTime": "65 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "chicken-mushroom-hotpot-52846",
+        "chicken-enchilada-casserole-52765",
+        "sweet-and-sour-chicken-53376"
+      ]
+    },
+    {
+      "mealId": "53153",
+      "id": "churros-53153",
+      "title": "Spanish Churros Dessert",
+      "category": "Dessert",
+      "origin": "Spanish",
+      "image": "https://www.themealdb.com/images/media/meals/nxnny61763250596.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/nxnny61763250596.jpg",
+      "ingredients": [
+        "50g Butter",
+        "1/2 teaspoon Vanilla Extract",
+        "250g Plain Flour",
+        "1 teaspoon Baking Powder",
+        "1 L Sunflower Oil",
+        "2 chopped Bread",
+        "200g Dark Chocolate",
+        "100 ml Double Cream",
+        "100 ml Milk",
+        "3  tablespoons Golden Syrup",
+        "1/2 teaspoon Vanilla Extract",
+        "100g Caster Sugar",
+        "2 teaspoon Cinnamon"
+      ],
+      "instructions": "1. Boil the kettle, then measure 300ml boiling water into a jug and add the melted butter and vanilla extract.,2. Put all the sauce ingredients into a pan and gently melt together, stirring occasionally until you have a smooth shiny sauce.,3. Fill a large deep saucepan one-third full of oil and heat until a cube of bread browns in 45 seconds to 1 min.,4. Fit a star nozzle to a piping bag, fill with the rested dough, then pipe 2-3 strips directly into the pan, snipping off each dough strip with a pair of kitchen scissors.,5. Once the churros are crisp and golden brown, remove them from the oil with a slotted spoon and drain on the kitchen paper-lined tray.",
+      "steps": [
+        "Boil the kettle, then measure 300ml boiling water into a jug and add the melted butter and vanilla extract.,2.",
+        "Put all the sauce ingredients into a pan and gently melt together, stirring occasionally until you have a smooth shiny sauce.,3.",
+        "Fill a large deep saucepan one-third full of oil and heat until a cube of bread browns in 45 seconds to 1 min.,4.",
+        "Fit a star nozzle to a piping bag, fill with the rested dough, then pipe 2-3 strips directly into the pan, snipping off each dough strip with a pair of kitchen scissors.,5.",
+        "Once the churros are crisp and golden brown, remove them from the oil with a slotted spoon and drain on the kitchen paper-lined tray."
+      ],
+      "description": "Spanish Churros Dessert (Spanish) — easy dessert recipe with 13 ingredients and 5 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Spanish dessert",
+        "churros recipe",
+        "chocolate sauce",
+        "deep-frying",
+        "sweet treats",
+        "dessert ideas",
+        "pastry recipes",
+        "cinnamon sugar",
+        "Dessert",
+        "Spanish"
+      ],
+      "datePublished": "2026-04-23",
+      "publishDate": "2026-04-23T09:00:00",
+      "addedDate": "2026-04-21T04:06:58",
+      "status": "PUBLISHED",
+      "slug": "churros-53153",
+      "youtube": "https://www.youtube.com/watch?v=453mpKHVaBs",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "1 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "jam-roly-poly-52890",
+        "jamaican-sweet-potato-pudding-53344",
+        "polskie-nalesniki-polish-pancakes-53022"
       ]
     }
   ]
