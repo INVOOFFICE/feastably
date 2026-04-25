@@ -271,7 +271,7 @@
       "relatedRecipeIds": [
         "salmon-eggs-eggs-benedict-52962",
         "bread-omelette-53076",
-        "cream-cheese-tart-52779"
+        "breakfast-potatoes-52965"
       ]
     },
     {
@@ -573,8 +573,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "smoked-haddock-kedgeree-52964",
-        "dutch-poffertjes-mini-pancakes-53379",
-        "home-made-mandazi-52967"
+        "breakfast-potatoes-52965",
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -898,7 +898,7 @@
       "relatedRecipeIds": [
         "bread-omelette-53076",
         "salmon-eggs-eggs-benedict-52962",
-        "dutch-poffertjes-mini-pancakes-53379"
+        "breakfast-potatoes-52965"
       ]
     },
     {
@@ -1200,8 +1200,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "dutch-poffertjes-mini-pancakes-53379",
-        "fruit-and-cream-cheese-breakfast-pastries-52957"
+        "breakfast-potatoes-52965",
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -1439,8 +1439,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "fruit-and-cream-cheese-breakfast-pastries-52957",
-        "full-english-breakfast-52896"
+        "breakfast-potatoes-52965",
+        "fruit-and-cream-cheese-breakfast-pastries-52957"
       ]
     },
     {
@@ -1500,7 +1500,7 @@
       "relatedRecipeIds": [
         "beef-wellington-52803",
         "minced-beef-pie-52876",
-        "beef-rendang-53053"
+        "beef-caldereta-53070"
       ]
     },
     {
@@ -1679,8 +1679,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "dutch-poffertjes-mini-pancakes-53379",
-        "fruit-and-cream-cheese-breakfast-pastries-52957"
+        "breakfast-potatoes-52965",
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -2255,7 +2255,7 @@
       "relatedRecipeIds": [
         "beef-wellington-52803",
         "minced-beef-pie-52876",
-        "beef-rendang-53053"
+        "beef-caldereta-53070"
       ]
     },
     {
@@ -3227,9 +3227,9 @@
       "featured": false,
       "trending": true,
       "relatedRecipeIds": [
+        "chicken-couscous-52850",
         "chicken-enchilada-casserole-52765",
-        "chicken-mushroom-hotpot-52846",
-        "spanish-chicken-53164"
+        "chicken-mushroom-hotpot-52846"
       ]
     },
     {
@@ -3977,8 +3977,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "dutch-poffertjes-mini-pancakes-53379",
-        "fruit-and-cream-cheese-breakfast-pastries-52957"
+        "breakfast-potatoes-52965",
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -4234,8 +4234,8 @@
       "trending": true,
       "relatedRecipeIds": [
         "bread-omelette-53076",
-        "dutch-poffertjes-mini-pancakes-53379",
-        "fruit-and-cream-cheese-breakfast-pastries-52957"
+        "breakfast-potatoes-52965",
+        "dutch-poffertjes-mini-pancakes-53379"
       ]
     },
     {
@@ -4431,6 +4431,311 @@
         "jam-roly-poly-52890",
         "jamaican-sweet-potato-pudding-53344",
         "polskie-nalesniki-polish-pancakes-53022"
+      ]
+    },
+    {
+      "mealId": "52965",
+      "id": "breakfast-potatoes-52965",
+      "title": "Breakfast Potatoes",
+      "category": "Breakfast",
+      "origin": "Canadian",
+      "image": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+      "ingredients": [
+        "3 Medium Potatoes",
+        "1 tbs Olive Oil",
+        "2 strips Bacon",
+        "Minced Garlic Clove",
+        "1 tbs Maple Syrup",
+        "Garnish Parsley",
+        "Pinch Salt",
+        "Pinch Pepper",
+        "To taste Allspice"
+      ],
+      "instructions": "Before you do anything, freeze your bacon slices that way when you're ready to prep, it'll be so much easier to chop!\nWash the potatoes and cut medium dice into square pieces. To prevent any browning, place the already cut potatoes in a bowl filled with water.\nIn the meantime, heat 1-2 tablespoons of oil in a large skillet over medium-high heat. Tilt the skillet so the oil spreads evenly.\nOnce the oil is hot, drain the potatoes and add to the skillet. Season with salt, pepper, and Old Bay as needed.\nCook for 10 minutes, stirring the potatoes often, until brown. If needed, add a tablespoon more of oil.\nChop up the bacon and add to the potatoes. The bacon will start to render and the fat will begin to further cook the potatoes. Toss it up a bit! The bacon will take 5-6 minutes to crisp.\nOnce the bacon is cooked, reduce the heat to medium-low, add the minced garlic and toss. Season once more. Add dried or fresh parsley. Control heat as needed.\nLet the garlic cook until fragrant, about one minute.\nJust before serving, drizzle over the maple syrup and toss. Let that cook another minute, giving the potatoes a caramelized effect.\nServe in a warm bowl with a sunny side up egg!",
+      "steps": [
+        "Before you do anything, freeze your bacon slices that way when you're ready to prep, it'll be so much easier to chop!",
+        "Wash the potatoes and cut medium dice into square pieces. To prevent any browning, place the already cut potatoes in a bowl filled with water.",
+        "In the meantime, heat 1-2 tablespoons of oil in a large skillet over medium-high heat. Tilt the skillet so the oil spreads evenly.",
+        "Once the oil is hot, drain the potatoes and add to the skillet. Season with salt, pepper, and Old Bay as needed.",
+        "Cook for 10 minutes, stirring the potatoes often, until brown. If needed, add a tablespoon more of oil.",
+        "Chop up the bacon and add to the potatoes. The bacon will start to render and the fat will begin to further cook the potatoes. Toss it up a bit! The bacon will take 5-6 minutes to crisp.",
+        "Once the bacon is cooked, reduce the heat to medium-low, add the minced garlic and toss. Season once more. Add dried or fresh parsley. Control heat as needed.",
+        "Let the garlic cook until fragrant, about one minute.",
+        "Just before serving, drizzle over the maple syrup and toss. Let that cook another minute, giving the potatoes a caramelized effect.",
+        "Serve in a warm bowl with a sunny side up egg!"
+      ],
+      "description": "Breakfast Potatoes (Canadian) — easy breakfast recipe with 9 ingredients and 10 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Breakfast",
+        "Brunch",
+        "Canadian",
+        "Potatoes"
+      ],
+      "datePublished": "2026-04-24",
+      "publishDate": "2026-04-24T09:00:00",
+      "addedDate": "2026-04-22T04:06:55",
+      "status": "PUBLISHED",
+      "slug": "breakfast-potatoes-52965",
+      "youtube": "https://www.youtube.com/watch?v=BoD0TIO9nE4",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "16 min",
+      "servings": 4,
+      "difficulty": "Hard",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "bread-omelette-53076",
+        "salmon-eggs-eggs-benedict-52962",
+        "smoked-haddock-kedgeree-52964"
+      ]
+    },
+    {
+      "mealId": "53070",
+      "id": "beef-caldereta-53070",
+      "title": "Beef Caldereta",
+      "category": "Beef",
+      "origin": "Filipino",
+      "image": "https://www.themealdb.com/images/media/meals/41cxjh1683207682.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/41cxjh1683207682.jpg",
+      "ingredients": [
+        "2kg cut cubes Beef",
+        "1 Beef Stock",
+        "1 tbs Soy Sauce",
+        "2 cups Water",
+        "1 sliced Green Pepper",
+        "1 sliced Red Pepper",
+        "1 sliced Potatoes",
+        "1 sliced Carrots",
+        "8 ounces Tomato Puree",
+        "3  tablespoons Peanut Butter",
+        "5 Chilli Powder",
+        "1 chopped Onion",
+        "5 cloves Garlic",
+        "3 tbs Olive Oil"
+      ],
+      "instructions": "0.\tHeat oil in a cooking pot. Saute onion and garlic until onion softens\n1.\tAdd beef. Saute until the outer part turns light brown.\n2.\tAdd soy sauce. Pour tomato sauce and water. Let boil.\n3.\tAdd Knorr Beef Cube. Cover the pressure cooker. Cook for 30 minutes.\n4.\tPan-fry carrot and potato until it browns. Set aside.\n5.\tAdd chili pepper, liver spread and peanut butter. Stir.\n6.\tAdd bell peppers, fried potato and carrot. Cover the pot. Continue cooking for 5 to 7 minutes.\n7.\tSeason with salt and ground black pepper. Serve.",
+      "steps": [
+        "0.\tHeat oil in a cooking pot. Saute onion and garlic until onion softens",
+        "1.\tAdd beef. Saute until the outer part turns light brown.",
+        "2.\tAdd soy sauce. Pour tomato sauce and water. Let boil.",
+        "3.\tAdd Knorr Beef Cube. Cover the pressure cooker. Cook for 30 minutes.",
+        "4.\tPan-fry carrot and potato until it browns. Set aside.",
+        "5.\tAdd chili pepper, liver spread and peanut butter. Stir.",
+        "6.\tAdd bell peppers, fried potato and carrot. Cover the pot. Continue cooking for 5 to 7 minutes.",
+        "7.\tSeason with salt and ground black pepper. Serve."
+      ],
+      "description": "Beef Caldereta (Filipino) — easy beef recipe with 14 ingredients and 8 steps. Ready in 26 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Beef",
+        "Filipino",
+        "Caldereta"
+      ],
+      "datePublished": "2026-04-24",
+      "publishDate": "2026-04-24T09:00:00",
+      "addedDate": "2026-04-22T04:06:55",
+      "status": "PUBLISHED",
+      "slug": "beef-caldereta-53070",
+      "youtube": "https://www.youtube.com/watch?v=yI7hTz0ft5k",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "26 min",
+      "prepTime": "11 min",
+      "totalTime": "37 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "bistek-53069",
+        "beef-rendang-53053",
+        "beef-wellington-52803"
+      ]
+    },
+    {
+      "mealId": "52850",
+      "id": "chicken-couscous-52850",
+      "title": "Chicken Couscous",
+      "category": "Chicken",
+      "origin": "Moroccan",
+      "image": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+      "ingredients": [
+        "1 tbsp Olive Oil",
+        "1 chopped Onion",
+        "200g Chicken Breast",
+        "pinch Ginger",
+        "2 tblsp Harissa Spice",
+        "10 Dried Apricots",
+        "220g Chickpeas",
+        "200g Couscous",
+        "200ml Chicken Stock",
+        "Handful Coriander"
+      ],
+      "instructions": "Heat the olive oil in a large frying pan and cook the onion for 1-2 mins just until softened. Add the chicken and fry for 7-10 mins until cooked through and the onions have turned golden. Grate over the ginger, stir through the harissa to coat everything and cook for 1 min more.\n\nTip in the apricots, chickpeas and couscous, then pour over the stock and stir once. Cover with a lid or tightly cover the pan with foil and leave for about 5 mins until the couscous has soaked up all the stock and is soft. Fluff up the couscous with a fork and scatter over the coriander to serve. Serve with extra harissa, if you like.",
+      "steps": [
+        "Heat the olive oil in a large frying pan and cook the onion for 1-2 mins just until softened.",
+        "Add the chicken and fry for 7-10 mins until cooked through and the onions have turned golden.",
+        "Grate over the ginger, stir through the harissa to coat everything and cook for 1 min more.",
+        "Tip in the apricots, chickpeas and couscous, then pour over the stock and stir once.",
+        "Cover with a lid or tightly cover the pan with foil and leave for about 5 mins until the couscous has soaked up all the stock and is soft.",
+        "Fluff up the couscous with a fork and scatter over the coriander to serve.",
+        "Serve with extra harissa, if you like."
+      ],
+      "description": "Chicken Couscous (Moroccan) — easy chicken recipe with 10 ingredients and 7 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Chicken",
+        "Moroccan",
+        "Couscous"
+      ],
+      "datePublished": "2026-04-24",
+      "publishDate": "2026-04-24T09:00:00",
+      "addedDate": "2026-04-22T04:06:55",
+      "status": "PUBLISHED",
+      "slug": "chicken-couscous-52850",
+      "youtube": "https://www.youtube.com/watch?v=GZQGy9oscVk",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "18 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "chicken-enchilada-casserole-52765",
+        "chicken-mushroom-hotpot-52846",
+        "chicken-shawarma-with-homemade-garlic-herb-yoghurt-sauce-53218"
+      ]
+    },
+    {
+      "mealId": "52924",
+      "id": "nanaimo-bars-52924",
+      "title": "Nanaimo Bars",
+      "category": "Dessert",
+      "origin": "Canadian",
+      "image": "https://www.themealdb.com/images/media/meals/vwuprt1511813703.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/vwuprt1511813703.jpg",
+      "ingredients": [
+        "125g Custard",
+        "50g Caster Sugar",
+        "5 tbs Cocoa",
+        "1 beaten Egg",
+        "200g shredded Digestive Biscuits",
+        "100g Desiccated Coconut",
+        "50g Almonds",
+        "100g Butter",
+        "4 tbs Double Cream",
+        "3 tbs Custard Powder",
+        "250g Icing Sugar",
+        "150g Dark Chocolate",
+        "50g Butter"
+      ],
+      "instructions": "Start by making the biscuit base. In a bowl, over a pan of simmering water, melt the butter with the sugar and cocoa powder, stirring occasionally until smooth. Whisk in the egg for 2 to 3 mins until the mixture has thickened. Remove from heat and mix in the biscuit crumbs, coconut and almonds if using, then press into the base of a lined 20cm square tin. Chill for 10 mins.\nFor the middle layer, make the custard icing; whisk together the butter, cream and custard powder until light and fluffy, then gradually add the icing sugar until fully incorporated. Spread over the bottom layer and chill in the fridge for at least 10 mins until the custard is no longer soft.\nMelt the chocolate and butter together in the microwave, then spread over the chilled bars and put back in the fridge. Leave until the chocolate has fully set (about 2 hrs). Take the mixture out of the tin and slice into squares to serve.",
+      "steps": [
+        "Start by making the biscuit base. In a bowl, over a pan of simmering water, melt the butter with the sugar and cocoa powder, stirring occasionally until smooth. Whisk in the egg for 2 to 3 mins until the mixture has thickened. Remove from heat and mix in the biscuit crumbs, coconut and almonds if using, then press into the base of a lined 20cm square tin. Chill for 10 mins.",
+        "For the middle layer, make the custard icing; whisk together the butter, cream and custard powder until light and fluffy, then gradually add the icing sugar until fully incorporated. Spread over the bottom layer and chill in the fridge for at least 10 mins until the custard is no longer soft.",
+        "Melt the chocolate and butter together in the microwave, then spread over the chilled bars and put back in the fridge. Leave until the chocolate has fully set (about 2 hrs). Take the mixture out of the tin and slice into squares to serve."
+      ],
+      "description": "Nanaimo Bars (Canadian) — easy dessert recipe with 13 ingredients and 3 steps. Ready in 13 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Treat",
+        "Snack",
+        "Dairy",
+        "Dessert",
+        "Canadian",
+        "Nanaimo",
+        "Bars"
+      ],
+      "datePublished": "2026-04-24",
+      "publishDate": "2026-04-24T09:00:00",
+      "addedDate": "2026-04-22T04:06:55",
+      "status": "PUBLISHED",
+      "slug": "nanaimo-bars-52924",
+      "youtube": "https://www.youtube.com/watch?v=MMrE4I1ZtWo",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "13 min",
+      "prepTime": "10 min",
+      "totalTime": "23 min",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "battenberg-cake-52894",
+        "christmas-cake-52990",
+        "churros-53153"
+      ]
+    },
+    {
+      "mealId": "53069",
+      "id": "bistek-53069",
+      "title": "Bistek",
+      "category": "Beef",
+      "origin": "Filipino",
+      "image": "https://www.themealdb.com/images/media/meals/4pqimk1683207418.jpg",
+      "imageCard": "https://www.themealdb.com/images/media/meals/4pqimk1683207418.jpg",
+      "ingredients": [
+        "1 lb Beef",
+        "5 tablespoons Soy Sauce",
+        "1 Lemon",
+        "3 cloves Garlic",
+        "3 parts Onion",
+        "4 tbs Olive Oil",
+        "1 cup Water",
+        "1 pinch Salt"
+      ],
+      "instructions": "0.        Marinate beef in soy sauce, lemon (or calamansi), and ground black pepper for at least 1 hour. Note: marinate overnight for best result\n1.        Heat the cooking oil in a pan then pan-fry half of the onions until the texture becomes soft. Set aside\n2.        Drain the marinade from the beef. Set it aside. Pan-fry the beef on the same pan where the onions were fried for 1 minute per side. Remove from the pan. Set aside\n3.        Add more oil if needed. Saute garlic and remaining raw onions until onion softens.\n4.        Pour the remaining marinade and water. Bring to a boil.\n5.        Add beef. Cover the pan and simmer until the meat is tender. Note: Add water as needed.\n6.        Season with ground black pepper and salt as needed. Top with pan-fried onions.\n7.        Transfer to a serving plate. Serve hot. Share and Enjoy!",
+      "steps": [
+        "0.        Marinate beef in soy sauce, lemon (or calamansi), and ground black pepper for at least 1 hour. Note: marinate overnight for best result",
+        "1.        Heat the cooking oil in a pan then pan-fry half of the onions until the texture becomes soft. Set aside",
+        "2.        Drain the marinade from the beef. Set it aside. Pan-fry the beef on the same pan where the onions were fried for 1 minute per side. Remove from the pan. Set aside",
+        "3.        Add more oil if needed. Saute garlic and remaining raw onions until onion softens.",
+        "4.        Pour the remaining marinade and water. Bring to a boil.",
+        "5.        Add beef. Cover the pan and simmer until the meat is tender. Note: Add water as needed.",
+        "6.        Season with ground black pepper and salt as needed. Top with pan-fried onions.",
+        "7.        Transfer to a serving plate. Serve hot. Share and Enjoy!"
+      ],
+      "description": "Bistek (Filipino) — easy beef recipe with 8 ingredients and 8 steps. Ready in 10 min. Includes exact ingredients and clear instructions.",
+      "tags": [
+        "Beef",
+        "Filipino",
+        "Bistek"
+      ],
+      "datePublished": "2026-04-24",
+      "publishDate": "2026-04-24T09:00:00",
+      "addedDate": "2026-04-22T04:06:55",
+      "status": "PUBLISHED",
+      "slug": "bistek-53069",
+      "youtube": "https://www.youtube.com/watch?v=xOQON5_S7as",
+      "author": {
+        "name": "Akkous",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&fit=crop&q=80"
+      },
+      "cookTime": "10 min",
+      "prepTime": "10 min",
+      "totalTime": "1 min",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "trending": true,
+      "relatedRecipeIds": [
+        "beef-caldereta-53070",
+        "beef-rendang-53053",
+        "beef-wellington-52803"
       ]
     }
   ]

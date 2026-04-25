@@ -74,6 +74,11 @@
 - [Hearty Egyptian Beef Fatteh](https://akkous.com/recipes/egyptian-fatteh-53031/) — Egyptian | Beef
 - [Spanish Chicken Bake](https://akkous.com/recipes/spanish-chicken-53164/) — Spanish | Chicken
 - [Spanish Churros Dessert](https://akkous.com/recipes/churros-53153/) — Spanish | Dessert
+- [Breakfast Potatoes](https://akkous.com/recipes/breakfast-potatoes-52965/) — Canadian | Breakfast
+- [Beef Caldereta](https://akkous.com/recipes/beef-caldereta-53070/) — Filipino | Beef
+- [Chicken Couscous](https://akkous.com/recipes/chicken-couscous-52850/) — Moroccan | Chicken
+- [Nanaimo Bars](https://akkous.com/recipes/nanaimo-bars-52924/) — Canadian | Dessert
+- [Bistek](https://akkous.com/recipes/bistek-53069/) — Filipino | Beef
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.
