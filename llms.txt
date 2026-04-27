@@ -84,6 +84,11 @@
 - [Pumpkin Pie](https://akkous.com/recipes/pumpkin-pie-52857/) — American | Dessert
 - [Lamb Rogan josh](https://akkous.com/recipes/lamb-rogan-josh-52808/) — Indian | Lamb
 - [Polish doughnuts (Pączki)](https://akkous.com/recipes/polish-doughnuts-paczki-53298/) — Polish | Dessert
+- [Beef and Mustard Pie](https://akkous.com/recipes/beef-and-mustard-pie-52874/) — British | Beef
+- [Ayam Percik](https://akkous.com/recipes/ayam-percik-53050/) — Malaysian | Chicken
+- [Tall Skoleboller](https://akkous.com/recipes/tall-skoleboller-53119/) — Norwegian | Dessert
+- [Vietnamese lamb shanks with sweet potatoes](https://akkous.com/recipes/vietnamese-lamb-shanks-with-sweet-potatoes-53231/) — Vietnamese | Lamb
+- [Turkey Meatloaf](https://akkous.com/recipes/turkey-meatloaf-52845/) — British | Miscellaneous
 
 ## About
 - All recipes include ingredients, step-by-step instructions, cooking time, difficulty level, and cultural origin.
