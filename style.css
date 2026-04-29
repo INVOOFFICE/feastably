@@ -1860,6 +1860,7 @@ input:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: min(100%, 420px);
   min-height: 42px;
   padding: 0.6rem 1rem;
   border-radius: 999px;
@@ -1868,6 +1869,7 @@ input:focus-visible {
   background: linear-gradient(135deg, var(--primary), var(--accent));
   text-decoration: none;
   transition: transform var(--transition), filter var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 
 .recipe-affiliate__cta:hover {
