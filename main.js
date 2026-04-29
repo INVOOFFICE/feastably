@@ -1165,16 +1165,28 @@
     if (!isRecipePage()) return;
     var input = $("#site-search");
     if (!input) return;
+    var timer = null;
     input.addEventListener("keydown", function (e) {
       if (e.key !== "Enter") return;
       e.preventDefault();
       var raw = (input.value || "").trim();
-      var href =
+      window.location.href =
         siteRootRelativePrefix() +
         "index.html" +
         (raw ? "?q=" + encodeURIComponent(raw) : "") +
         "#recipe-grid";
-      window.location.href = href;
+    });
+    // Sur mobile : redirige après 800ms d'inactivité si l'utilisateur a tapé quelque chose
+    input.addEventListener("input", function () {
+      clearTimeout(timer);
+      var raw = (input.value || "").trim();
+      if (!raw) return;
+      timer = setTimeout(function () {
+        window.location.href =
+          siteRootRelativePrefix() +
+          "index.html?q=" + encodeURIComponent(raw) +
+          "#recipe-grid";
+      }, 800);
     });
   }
 
@@ -1666,32 +1678,6 @@
     updateRecipeMeta(recipe);
     injectJsonLd(buildRecipeJsonLdGraph(recipe));
 
-    // --- SEO dynamique ---
-    var recipeName = recipe.name || recipe.title || "Recipe";
-    var recipeDesc = recipe.description || recipe.hook || "";
-    document.title = recipeName + " — Akkous";
-
-    var metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && recipeDesc) {
-      metaDesc.setAttribute("content", recipeDesc);
-    }
-
-    var ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle && recipeName) {
-      ogTitle.setAttribute("content", recipeName + " — Akkous");
-    }
-
-    var ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc && recipeDesc) {
-      ogDesc.setAttribute("content", recipeDesc);
-    }
-
-    var canonical = document.getElementById("canonical-url");
-    if (canonical) {
-      canonical.setAttribute("href", window.location.href.split("?")[0]);
-    }
-    // --- fin SEO ---
-
     var heroImg = $("#recipe-hero-image");
     if (heroImg) {
       heroImg.src = recipe.image || "";
@@ -1933,11 +1919,11 @@
     var copyBtn = $("#share-copy");
     if (copyBtn) {
       copyBtn.addEventListener("click", function () {
+        var svgBackup = copyBtn.innerHTML;
         function done() {
-          var orig = copyBtn.textContent;
-          copyBtn.textContent = "Copied!";
+          copyBtn.textContent = "✓ Copied!";
           setTimeout(function () {
-            copyBtn.textContent = orig;
+            copyBtn.innerHTML = svgBackup;
           }, 2000);
         }
 
@@ -1953,17 +1939,19 @@
   }
 
   function fallbackCopy(text, cb) {
-    var ta = document.createElement("textarea");
-    ta.value = text;
-    ta.setAttribute("readonly", "");
-    ta.style.position = "fixed";
-    ta.style.left = "-9999px";
-    document.body.appendChild(ta);
-    ta.select();
     try {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.cssText = "position:fixed;left:-9999px;top:-9999px;opacity:0";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
       document.execCommand("copy");
-    } catch (e) {}
-    document.body.removeChild(ta);
+      document.body.removeChild(ta);
+    } catch (e) {
+      // silent fail
+    }
     if (cb) cb();
   }
 
