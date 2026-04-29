@@ -1717,7 +1717,32 @@
 
     var introEl = $("#recipe-intro");
     if (introEl) {
-      introEl.textContent = recipe.hook || recipe.description || "";
+      // Build a clean short intro instead of dumping the full description
+      var title = recipe.title || "This recipe";
+      var category = recipe.categoryDisplay || recipe.category || "";
+      var origin = recipe.origin || "";
+      var ingCount = (recipe.ingredients || []).length;
+      var stepCount = (recipe.steps || []).length;
+      var cookTime = recipe.cookTime || recipe.totalTime || "";
+
+      var parts = [];
+      if (category && origin) {
+        parts.push("A " + origin + " " + category.toLowerCase() + " recipe.");
+      } else if (category) {
+        parts.push("A " + category.toLowerCase() + " recipe.");
+      }
+      if (ingCount) parts.push(ingCount + " ingredients");
+      if (stepCount) parts.push(stepCount + " steps");
+      if (cookTime) parts.push("ready in " + cookTime);
+
+      var summary = title;
+      if (parts.length) {
+        summary += " — " + parts.join(", ") + ".";
+      }
+
+      // Use recipe.hook if available (short hand-written teaser), 
+      // otherwise use the generated summary
+      introEl.textContent = recipe.hook || summary;
     }
 
     renderRecipeTip(recipe);
