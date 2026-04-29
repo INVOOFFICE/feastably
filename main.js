@@ -1699,6 +1699,21 @@
     renderRecipeTagsAndVideo(recipe);
     renderRecipeFaq(recipe);
 
+    var aff = $("#affiliate-cta");
+    if (aff) {
+      try {
+        var base = "https://0f32e8wh-e0m7t1bzvreoy2m9r.hop.clickbank.net";
+        var u = new URL(base);
+        u.searchParams.set("utm_source", "akkous");
+        u.searchParams.set("utm_medium", "affiliate");
+        u.searchParams.set("utm_campaign", "vegan-cookbook");
+        u.searchParams.set("utm_content", String(recipe.slug || recipe.id || ""));
+        aff.href = u.toString();
+      } catch (e) {
+        // keep static href
+      }
+    }
+
     var ingList = $("#ingredient-list");
     if (ingList) {
       ingList.innerHTML = (recipe.ingredients || [])
